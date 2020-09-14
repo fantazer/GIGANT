@@ -1,0 +1,23 @@
+include block_html/_style.pug
+include block_html/_include.pug
+
+.page
+	+header()
+	.content
+		.main-cont
+			.title-row
+				.arrow(onclick="window.history.go(-1); return false;")
+					+icon("arrow-conner-left","icon")
+				.title.title--lg Пицца
+			.product-cont
+				// TAG type
+				//хит = bg:#FFC500 + color:white
+				//рекомендуем = bg:#006DD3
+				//спец цена = bg:#FF0000
+				//новинка = bg:#61D100
+				- for (var i=0;i< 6;i++)
+					+product()
+
+
+	+footer()
+include ./block_html/_script.pug

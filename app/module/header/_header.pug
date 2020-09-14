@@ -1,0 +1,113 @@
+mixin header()
+	//block header
+	.header
+		//header-top
+		.header-top-wrap
+			.main-cont
+				.header-top
+					.head-toggle
+						+icon("menu","icon icon-open")
+						+icon("close","icon icon-close")
+					a(href="/").logo
+						img(src="img/logo.svg", alt="")
+					.header-location
+						.header-info
+							.header-info__icon
+								+icon("location--color","icon")
+							.header-info__val Нурсултан
+							.bubble-loc.hidden
+								// NOTE!!! REMOVE Class .hidden
+								.bubble-loc__title Ваш город  <span class="type--mark type--bold">Нур-султан ?</span>
+								.bubble-loc__footer
+									.bubble-loc__footer--true Да
+									.bubble-loc__footer--false Нет, выбрать другой
+						.header-info__text Доставка за 45-90 минут
+					.header-contact
+						.header-info
+							.header-info__icon
+								+icon("phone","icon")
+							.header-info__val
+								a(href="tel:+7 (3852) 58-55-05")  <span>+7 (3852)</span>&nbsp;58-55-05
+								a(href="tel:+7 (3852) 58-85-05")  <span>+7 (3852)</span>&nbsp;58-85-05
+							.soc-row.soc-row--sm
+								a(href="#").soc-row__el
+									+icon("soc-instagram","icon")
+								a(href="#").soc-row__el
+									+icon("soc-vk","icon")
+						.header-info__text Сегодня 10 - 24
+					.header-auth.header-auth--true
+						// toggle .header-auth--true
+						+icon("user","icon")
+						.header-auth-state--true
+							span Войти
+						.header-auth-state--false
+							span Александр
+					.cart-wrap.cart-wrap--mobile
+						.cart
+							+icon("cart--color","icon")
+							.cart-val 33
+		.slide-menu
+			.slide-row
+				.slide-header-auth.slide-header-auth--true
+					// toggle .slide-header-auth--true
+					+icon("user","icon")
+					.slide-header-auth-state--true
+						span Войти
+					.slide-header-auth-state--false
+						span Александр
+						
+			.slide-row
+				.slide-menu__list
+					a(href="#").slide-menu__list-el Акции
+					a(href="#").slide-menu__list-el Доставка
+					a(href="#").slide-menu__list-el О нас
+			.slide-row
+				.slide-header-location
+					.slide-header-info
+						.slide-header-info__icon
+							+icon("location","icon")
+						.slide-header-info__val Нурсултан
+					.slide-header-info__text Доставка за 45-90 минут
+			.slide-row
+				.slide-header-contact
+					.slide-header-info
+						.slide-header-info__icon
+							+icon("phone","icon")
+						.slide-header-info__val
+							a(href="tel:+7 (7172) 767 767")  +7 (7172) 767 767
+							a(href="tel:+7 (707) 988 78 87")  +7 (707) 988 78 87
+					.slide-header-info__text Сегодня 10 - 24
+
+
+		.header-menu-wrap
+			.main-cont
+				.header-menu
+					a(href="/").logo
+						img(src="img/logo.svg", alt="")
+					.header-nav
+						-
+							var items = [
+								'Пицца','Роллы','Суши','Сеты','WOK','Десерты','Напитки','Соусы'
+								];
+						each item in items
+							a(href="#").header-nav__el #{item}
+					.header-nav.header-nav--add
+						a(href="#").header-nav__el Акции
+						a(href="#").header-nav__el Доставка и оплата
+						a(href="#").header-nav__el Вакансии
+						a(href="#").header-nav__el О нас
+					
+					.header-menu-search.js-toggle-search
+						+icon("search","icon")
+					.cart-wrap.cart-wrap--desctop
+						.cart-cost 2 850 ₽
+						.cart
+							+icon("cart--color","icon")
+							.cart-val 33
+		.search-wrap
+			.main-cont
+				.search-cont
+					.search
+						input(type="text" placeholder="Что ищем ?" class="input")
+						input(type="submit" value="Искать" class="btn--md btn--mark")
+	//block header end

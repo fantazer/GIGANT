@@ -1,0 +1,61 @@
+include block_html/_style.pug
+include block_html/_include.pug
+
+.page
+	+header()
+	.main-slider
+		- for (var i=0;i<4;i++)
+			a(href="#").main-slider__el-wrap
+				.main-slider__el(style="background-image:url('img/banner-1.jpg')")
+	.content
+		.main-cont
+			.title-row
+				.title Хиты продаж
+					.title-val 15
+				a(href="#").title__more Смотреть все товары
+				a(href="#").title__more-mobile
+					span 23
+					+icon("arrow-conner-right","icon")
+			.product-cont
+				// TAG type
+				//хит = bg:#FFC500 + color:white
+				//рекомендуем = bg:#006DD3
+				//спец цена = bg:#FF0000
+				//новинка = bg:#61D100
+				- for (var i=0;i< 6;i++)
+					+product()
+
+			.title-row
+				.title Пицца
+					.title-val 12
+				a(href="#").title__more Смотреть все товары
+				a(href="#").title__more-mobile
+					span 23
+					+icon("arrow-conner-right","icon")
+			.product-cont
+				// TAG type
+				//хит = bg:#FFC500 + color:white
+				//рекомендуем = bg:#006DD3
+				//спец цена = bg:#FF0000
+				//новинка = bg:#61D100
+				- for (var i=0;i< 7;i++)
+					+product("item-3.jpg")
+	.sale-wrap
+		.main-cont
+			.sale
+				.sale-slider-wrap
+					.sale-slider
+						- for (var i=0;i<3;i++)
+							.sale-slider__el(style="background-image:url('img/banner-1.jpg')")
+				.sale-info
+					.sale-title Признание в любви
+					.sale-text.text
+						p озможность получить скидку действует в течение 7-ми дней (в День рождения и 6 дней после Дня рождения)*
+
+						p Скидка распространяется на все меню представленное на этом сайте **
+
+						p * При себе необходимо иметь документ, в котором указана дата вашего Дня рождения.
+
+						p ** Скидка НЕ суммируется с другими скидками («Счастливые часы», «Красная цена») и НЕ действует на блюда из разделов: Бизнес-Ланчи, Завтраки, Детское..
+	+footer()
+include ./block_html/_script.pug
