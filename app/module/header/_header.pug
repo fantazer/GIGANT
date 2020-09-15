@@ -35,39 +35,34 @@ mixin header()
 								a(href="#").soc-row__el
 									+icon("soc-vk","icon")
 						.header-info__text Сегодня 10 - 24
-					.header-auth.header-auth--true
-						// toggle .header-auth--true
+					.header-auth
 						+icon("user","icon")
-						.header-auth-state--true
-							span Войти
-						.header-auth-state--false
-							span Александр
+						.header-auth-state Александр
+					.header-menu-search.mobile--show
+						+icon("search","icon js-toggle-search")
 					.cart-wrap.cart-wrap--mobile
 						.cart
 							+icon("cart--color","icon")
 							.cart-val 33
 		.slide-menu
 			.slide-row
-				.slide-header-auth.slide-header-auth--true
-					// toggle .slide-header-auth--true
+				.slide-header-auth
 					+icon("user","icon")
-					.slide-header-auth-state--true
-						span Войти
-					.slide-header-auth-state--false
-						span Александр
+					.slide-header-auth-state Александр
 						
 			.slide-row
 				.slide-menu__list
 					a(href="#").slide-menu__list-el Акции
-					a(href="#").slide-menu__list-el Доставка
+					a(href="#").slide-menu__list-el Доставка и оплата
+					a(href="#").slide-menu__list-el Вакансии
 					a(href="#").slide-menu__list-el О нас
 			.slide-row
-				.slide-header-location
-					.slide-header-info
-						.slide-header-info__icon
-							+icon("location","icon")
-						.slide-header-info__val Нурсултан
-					.slide-header-info__text Доставка за 45-90 минут
+				.header-location
+					.header-info
+						.header-info__icon
+							+icon("location--color","icon")
+						.header-info__val Нурсултан
+					.header-info__text Доставка за 45-90 минут
 			.slide-row
 				.slide-header-contact
 					.slide-header-info
@@ -77,7 +72,12 @@ mixin header()
 							a(href="tel:+7 (7172) 767 767")  +7 (7172) 767 767
 							a(href="tel:+7 (707) 988 78 87")  +7 (707) 988 78 87
 					.slide-header-info__text Сегодня 10 - 24
-
+			.slide-row
+				.soc-row
+					a(href="#").soc-row__el
+						+icon("soc-instagram","icon")
+					a(href="#").soc-row__el
+						+icon("soc-vk","icon")
 
 		.header-menu-wrap
 			.main-cont
@@ -97,9 +97,9 @@ mixin header()
 						a(href="#").header-nav__el Вакансии
 						a(href="#").header-nav__el О нас
 					
-					.header-menu-search.js-toggle-search
-						+icon("search","icon")
-					.cart-wrap.cart-wrap--desctop
+					.header-menu-search.mobile--hidden.js-toggle-search
+						+icon("search","icon js-toggle-search")
+					.cart-wrap.cart-wrap--desktop
 						.cart-cost 2 850 ₽
 						.cart
 							+icon("cart--color","icon")

@@ -112,17 +112,16 @@
                             </div>
                             <div class="header-info__text">Сегодня 10 - 24</div>
                         </div>
-                        <div class="header-auth header-auth--true">
-                            <!-- toggle .header-auth--true-->
+                        <div class="header-auth">
                             <svg class="icon">
                                 <use xlink:href="#user"></use>
                             </svg>
-                            <div class="header-auth-state--true">
-                                <span>Войти</span>
-                            </div>
-                            <div class="header-auth-state--false">
-                                <span>Александр</span>
-                            </div>
+                            <div class="header-auth-state">Александр</div>
+                        </div>
+                        <div class="header-menu-search mobile--show">
+                            <svg class="icon js-toggle-search">
+                                <use xlink:href="#search"></use>
+                            </svg>
                         </div>
                         <div class="cart-wrap cart-wrap--mobile">
                             <div class="cart">
@@ -137,37 +136,32 @@
             </div>
             <div class="slide-menu">
                 <div class="slide-row">
-                    <div class="slide-header-auth slide-header-auth--true">
-                        <!-- toggle .slide-header-auth--true-->
+                    <div class="slide-header-auth">
                         <svg class="icon">
                             <use xlink:href="#user"></use>
                         </svg>
-                        <div class="slide-header-auth-state--true">
-                            <span>Войти</span>
-                        </div>
-                        <div class="slide-header-auth-state--false">
-                            <span>Александр</span>
-                        </div>
+                        <div class="slide-header-auth-state">Александр</div>
                     </div>
                 </div>
                 <div class="slide-row">
                     <div class="slide-menu__list">
                         <a class="slide-menu__list-el" href="#">Акции</a>
-                        <a class="slide-menu__list-el" href="#">Доставка</a>
+                        <a class="slide-menu__list-el" href="#">Доставка и оплата</a>
+                        <a class="slide-menu__list-el" href="#">Вакансии</a>
                         <a class="slide-menu__list-el" href="#">О нас</a>
                     </div>
                 </div>
                 <div class="slide-row">
-                    <div class="slide-header-location">
-                        <div class="slide-header-info">
-                            <div class="slide-header-info__icon">
+                    <div class="header-location">
+                        <div class="header-info">
+                            <div class="header-info__icon">
                                 <svg class="icon">
-                                    <use xlink:href="#location"></use>
+                                    <use xlink:href="#location--color"></use>
                                 </svg>
                             </div>
-                            <div class="slide-header-info__val">Нурсултан</div>
+                            <div class="header-info__val">Нурсултан</div>
                         </div>
-                        <div class="slide-header-info__text">Доставка за 45-90 минут</div>
+                        <div class="header-info__text">Доставка за 45-90 минут</div>
                     </div>
                 </div>
                 <div class="slide-row">
@@ -184,6 +178,20 @@
                             </div>
                         </div>
                         <div class="slide-header-info__text">Сегодня 10 - 24</div>
+                    </div>
+                </div>
+                <div class="slide-row">
+                    <div class="soc-row">
+                        <a class="soc-row__el" href="#">
+                            <svg class="icon">
+                                <use xlink:href="#soc-instagram"></use>
+                            </svg>
+                        </a>
+                        <a class="soc-row__el" href="#">
+                            <svg class="icon">
+                                <use xlink:href="#soc-vk"></use>
+                            </svg>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -209,12 +217,12 @@
                             <a class="header-nav__el" href="#">Вакансии</a>
                             <a class="header-nav__el" href="#">О нас</a>
                         </div>
-                        <div class="header-menu-search js-toggle-search">
-                            <svg class="icon">
+                        <div class="header-menu-search mobile--hidden js-toggle-search">
+                            <svg class="icon js-toggle-search">
                                 <use xlink:href="#search"></use>
                             </svg>
                         </div>
-                        <div class="cart-wrap cart-wrap--desctop">
+                        <div class="cart-wrap cart-wrap--desktop">
                             <div class="cart-cost">2 850 ₽</div>
                             <div class="cart">
                                 <svg class="icon">
@@ -354,6 +362,18 @@
                 </div>
             </div>
         </div>
+        <div class="cookie">
+            <!-- to show add class .cookie + .cookie--active-->
+            <div class="main-cont">
+                <div class="cookie-wrap">
+                    <div class="cookie-text">Мы используем cookies для быстрой и удобной работы сайта. Продолжая пользоваться сайтом, вы принимаете
+                        <a class="link--mark" href="#">условия обработки</a>&nbsp;персональных данных</div>
+                    <svg class="icon icon-close">
+                        <use xlink:href="#close"></use>
+                    </svg>
+                </div>
+            </div>
+        </div>
         <!--block footer end-->
         <div class="modal-layer">
             <div class="modal-filter"></div>
@@ -480,7 +500,8 @@
                                 <use xlink:href="#close"></use>
                             </svg>
                         </div>
-                        <div class="modal-title">Регистрация успешна</div>
+                        <div class="modal-title">Регистрация
+                            <br>успешна</div>
                         <div class="modal-text">Теперь вы можете войти в личный кабинет, сохранить свои адреса, накапливать бонусные баллы и следить за историей заказов</div>
                         <a class="btn--md btn--mark btn--extend btn--full" href="#">Личный кабинет</a>
                         <a class="btn--md btn--light btn--full" href="#">На главную</a>

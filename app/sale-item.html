@@ -94,17 +94,16 @@
                             </div>
                             <div class="header-info__text">Сегодня 10 - 24</div>
                         </div>
-                        <div class="header-auth header-auth--true">
-                            <!-- toggle .header-auth--true-->
+                        <div class="header-auth">
                             <svg class="icon">
                                 <use xlink:href="#user"></use>
                             </svg>
-                            <div class="header-auth-state--true">
-                                <span>Войти</span>
-                            </div>
-                            <div class="header-auth-state--false">
-                                <span>Александр</span>
-                            </div>
+                            <div class="header-auth-state">Александр</div>
+                        </div>
+                        <div class="header-menu-search mobile--show">
+                            <svg class="icon js-toggle-search">
+                                <use xlink:href="#search"></use>
+                            </svg>
                         </div>
                         <div class="cart-wrap cart-wrap--mobile">
                             <div class="cart">
@@ -119,37 +118,32 @@
             </div>
             <div class="slide-menu">
                 <div class="slide-row">
-                    <div class="slide-header-auth slide-header-auth--true">
-                        <!-- toggle .slide-header-auth--true-->
+                    <div class="slide-header-auth">
                         <svg class="icon">
                             <use xlink:href="#user"></use>
                         </svg>
-                        <div class="slide-header-auth-state--true">
-                            <span>Войти</span>
-                        </div>
-                        <div class="slide-header-auth-state--false">
-                            <span>Александр</span>
-                        </div>
+                        <div class="slide-header-auth-state">Александр</div>
                     </div>
                 </div>
                 <div class="slide-row">
                     <div class="slide-menu__list">
                         <a class="slide-menu__list-el" href="#">Акции</a>
-                        <a class="slide-menu__list-el" href="#">Доставка</a>
+                        <a class="slide-menu__list-el" href="#">Доставка и оплата</a>
+                        <a class="slide-menu__list-el" href="#">Вакансии</a>
                         <a class="slide-menu__list-el" href="#">О нас</a>
                     </div>
                 </div>
                 <div class="slide-row">
-                    <div class="slide-header-location">
-                        <div class="slide-header-info">
-                            <div class="slide-header-info__icon">
+                    <div class="header-location">
+                        <div class="header-info">
+                            <div class="header-info__icon">
                                 <svg class="icon">
-                                    <use xlink:href="#location"></use>
+                                    <use xlink:href="#location--color"></use>
                                 </svg>
                             </div>
-                            <div class="slide-header-info__val">Нурсултан</div>
+                            <div class="header-info__val">Нурсултан</div>
                         </div>
-                        <div class="slide-header-info__text">Доставка за 45-90 минут</div>
+                        <div class="header-info__text">Доставка за 45-90 минут</div>
                     </div>
                 </div>
                 <div class="slide-row">
@@ -166,6 +160,20 @@
                             </div>
                         </div>
                         <div class="slide-header-info__text">Сегодня 10 - 24</div>
+                    </div>
+                </div>
+                <div class="slide-row">
+                    <div class="soc-row">
+                        <a class="soc-row__el" href="#">
+                            <svg class="icon">
+                                <use xlink:href="#soc-instagram"></use>
+                            </svg>
+                        </a>
+                        <a class="soc-row__el" href="#">
+                            <svg class="icon">
+                                <use xlink:href="#soc-vk"></use>
+                            </svg>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -191,12 +199,12 @@
                             <a class="header-nav__el" href="#">Вакансии</a>
                             <a class="header-nav__el" href="#">О нас</a>
                         </div>
-                        <div class="header-menu-search js-toggle-search">
-                            <svg class="icon">
+                        <div class="header-menu-search mobile--hidden js-toggle-search">
+                            <svg class="icon js-toggle-search">
                                 <use xlink:href="#search"></use>
                             </svg>
                         </div>
-                        <div class="cart-wrap cart-wrap--desctop">
+                        <div class="cart-wrap cart-wrap--desktop">
                             <div class="cart-cost">2 850 ₽</div>
                             <div class="cart">
                                 <svg class="icon">
@@ -222,73 +230,71 @@
         <!--block header end-->
         <div class="content">
             <div class="main-cont">
-                <div class="main-cont">
-                    <div class="info-banner" style="background-image:url('img/banner-1.jpg')"></div>
-                    <div class="title-row">
-                        <div class="arrow" onclick="window.history.go(-1); return false;">
-                            <svg class="icon">
-                                <use xlink:href="#arrow-conner-left"></use>
-                            </svg>
-                        </div>
-                        <div class="title title--xl">Скидка в день рождения!</div>
+                <div class="info-banner" style="background-image:url('img/banner-1.jpg')"></div>
+                <div class="title-row">
+                    <div class="arrow" onclick="window.history.go(-1); return false;">
+                        <svg class="icon">
+                            <use xlink:href="#arrow-conner-left"></use>
+                        </svg>
                     </div>
-                    <div class="info-descr text">
-                        <div class="sale-date">
-                            <svg class="icon">
-                                <use xlink:href="#clock"></use>
-                            </svg>
-                            <span>Действует до 21 августа 2020 г</span>
-                        </div>
-                        <p>Возможность получить скидку действует в течение 7-ми дней (в День рождения и 6 дней после Дня рождения)*</p>
-                        <p>Скидка распространяется на все меню представленное на этом сайте **</p>
-                        <p>* При себе необходимо иметь документ, в котором указана дата вашего Дня рождения.</p>
-                        <p>** Скидка НЕ суммируется с другими скидками («Счастливые часы», «Красная цена») и НЕ действует на блюда из разделов: Бизнес-Ланчи, Завтраки, Детское меню, Саке Шок, Коктейль Шок.</p>
+                    <div class="title title--xl">Скидка в день рождения!</div>
+                </div>
+                <div class="info-descr text">
+                    <div class="sale-date">
+                        <svg class="icon">
+                            <use xlink:href="#clock"></use>
+                        </svg>
+                        <span>Действует до 21 августа 2020 г</span>
                     </div>
-                    <div class="title title--lg">Другие акции</div>
-                    <div class="sale-list">
-                        <a class="sale-list__el" href="#">
-                            <div class="sale-list__el-img" style="background-image:url('img/sale-list-1.jpg')"></div>
-                            <div class="sale-list__el-descr">
-                                <div class="sale-list__el-info">
-                                    <div class="title sale-list__el-title">Скидка в день рождения!</div>
-                                    <div class="sale-list__el-date">
-                                        <svg class="icon">
-                                            <use xlink:href="#clock"></use>
-                                        </svg>
-                                        <span>Действует до 21 августа 2020 г</span>
-                                    </div>
-                                </div>
-                                <div class="sale-list__el-more">
-                                    <div class="arrow">
-                                        <svg class="icon">
-                                            <use xlink:href="#arrow-conner-right"></use>
-                                        </svg>
-                                    </div>
+                    <p>Возможность получить скидку действует в течение 7-ми дней (в День рождения и 6 дней после Дня рождения)*</p>
+                    <p>Скидка распространяется на все меню представленное на этом сайте **</p>
+                    <p>* При себе необходимо иметь документ, в котором указана дата вашего Дня рождения.</p>
+                    <p>** Скидка НЕ суммируется с другими скидками («Счастливые часы», «Красная цена») и НЕ действует на блюда из разделов: Бизнес-Ланчи, Завтраки, Детское меню, Саке Шок, Коктейль Шок.</p>
+                </div>
+                <div class="title title--lg">Другие акции</div>
+                <div class="sale-list">
+                    <a class="sale-list__el" href="#">
+                        <div class="sale-list__el-img" style="background-image:url('img/sale-list-1.jpg')"></div>
+                        <div class="sale-list__el-descr">
+                            <div class="sale-list__el-info">
+                                <div class="title sale-list__el-title">Скидка в день рождения!</div>
+                                <div class="sale-list__el-date">
+                                    <svg class="icon">
+                                        <use xlink:href="#clock"></use>
+                                    </svg>
+                                    <span>Действует до 21 августа 2020 г</span>
                                 </div>
                             </div>
-                        </a>
-                        <a class="sale-list__el" href="#">
-                            <div class="sale-list__el-img" style="background-image:url('img/sale-list-1.jpg')"></div>
-                            <div class="sale-list__el-descr">
-                                <div class="sale-list__el-info">
-                                    <div class="title sale-list__el-title">Скидка в день рождения!</div>
-                                    <div class="sale-list__el-date">
-                                        <svg class="icon">
-                                            <use xlink:href="#clock"></use>
-                                        </svg>
-                                        <span>Действует до 21 августа 2020 г</span>
-                                    </div>
-                                </div>
-                                <div class="sale-list__el-more">
-                                    <div class="arrow">
-                                        <svg class="icon">
-                                            <use xlink:href="#arrow-conner-right"></use>
-                                        </svg>
-                                    </div>
+                            <div class="sale-list__el-more">
+                                <div class="arrow">
+                                    <svg class="icon">
+                                        <use xlink:href="#arrow-conner-right"></use>
+                                    </svg>
                                 </div>
                             </div>
-                        </a>
-                    </div>
+                        </div>
+                    </a>
+                    <a class="sale-list__el" href="#">
+                        <div class="sale-list__el-img" style="background-image:url('img/sale-list-1.jpg')"></div>
+                        <div class="sale-list__el-descr">
+                            <div class="sale-list__el-info">
+                                <div class="title sale-list__el-title">Скидка в день рождения!</div>
+                                <div class="sale-list__el-date">
+                                    <svg class="icon">
+                                        <use xlink:href="#clock"></use>
+                                    </svg>
+                                    <span>Действует до 21 августа 2020 г</span>
+                                </div>
+                            </div>
+                            <div class="sale-list__el-more">
+                                <div class="arrow">
+                                    <svg class="icon">
+                                        <use xlink:href="#arrow-conner-right"></use>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
                 </div>
             </div>
         </div>
@@ -380,6 +386,18 @@
                             <img src="img/jq.svg" alt="" />
                         </a>
                     </div>
+                </div>
+            </div>
+        </div>
+        <div class="cookie">
+            <!-- to show add class .cookie + .cookie--active-->
+            <div class="main-cont">
+                <div class="cookie-wrap">
+                    <div class="cookie-text">Мы используем cookies для быстрой и удобной работы сайта. Продолжая пользоваться сайтом, вы принимаете
+                        <a class="link--mark" href="#">условия обработки</a>&nbsp;персональных данных</div>
+                    <svg class="icon icon-close">
+                        <use xlink:href="#close"></use>
+                    </svg>
                 </div>
             </div>
         </div>

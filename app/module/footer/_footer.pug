@@ -56,4 +56,10 @@ mixin footer()
 					a(href="/").create
 						span Разработка сайта:
 						img(src="img/jq.svg", alt="")
+	.cookie
+		// to show add class .cookie + .cookie--active
+		.main-cont
+			.cookie-wrap
+				.cookie-text Мы используем cookies для быстрой и удобной работы сайта. Продолжая пользоваться сайтом, вы принимаете #[a(href="#").link--mark условия обработки]&nbsp;персональных данных
+				+icon("close","icon icon-close")
 	//block footer end

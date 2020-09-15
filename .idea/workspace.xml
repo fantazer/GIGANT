@@ -1,109 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="33fc4985-0812-4917-a972-022b8742b981" name="Default" comment="fix styles">
-      <change afterPath="$PROJECT_DIR$/app/fonts/Montserrat-Medium.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/fonts/Montserrat-Medium.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/fonts/Montserrat-Regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/fonts/Montserrat-Regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/fonts/Montserrat-SemiBold.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/fonts/Montserrat-SemiBold.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/html/about.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/html/basket.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/html/catalog.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/html/deliver.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/html/form.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/html/item.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/html/lk.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/html/offer.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/html/sale-item.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/html/sale-list.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/html/vacancy.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/banner-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/box.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/item-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/item-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/item-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/item-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/item-card-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/jq.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/payment--light.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/prop-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/prop-10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/prop-11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/prop-12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/prop-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/prop-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/prop-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/prop-5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/prop-6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/prop-7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/prop-8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/prop-9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/restaurant-item-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/restaurant-item-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/restaurant-item-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/restaurant-item-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/restaurant-item-5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/sale-list-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/sale-list-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/sale-list-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/sale-list-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/svg/arrow-conner-left.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/svg/arrow-conner-right.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/svg/arrow-round-left.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/svg/compass.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/svg/free.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/svg/refresh.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/vacancy-2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/basket.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/basket.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/catalog.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/catalog.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/css/style.styl" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/style.styl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/css/variable/config/_btn.styl" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/variable/config/_btn.styl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/css/variable/config/_color.styl" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/variable/config/_color.styl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/css/variable/config/_input.styl" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/variable/config/_input.styl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/css/variable/config/_typography.styl" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/variable/config/_typography.styl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/elements.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/elements.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/fonts/rouble-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/fonts/rouble-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/fonts/rouble-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/fonts/rouble-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/fonts/rouble-webfont.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/html/block_html/_const.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/html/block_html/_const.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/html/block_html/_mixin.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/html/block_html/_mixin.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/html/block_html/_script.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/html/block_html/_script.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/html/block_html/_style.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/html/block_html/_style.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/html/block_html/_svg.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/html/block_html/_svg.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/deliver.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/deliver.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/error-404.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/error-404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/error-500.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/error-500.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/form.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/html/deliver.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/html/deliver.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/html/main.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/html/main.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/html/modal.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/html/modal.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/500.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/500.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/css/sprite.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/css/sprite.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/pack.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/pack.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/sprite.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/sprite.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/svg/arrow-down-fat.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/svg/arrow-down-fat.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/svg/arrow-up-fat.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/svg/arrow-up-fat.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/svg/clock.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/svg/clock.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/svg/delete.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/svg/delete.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/svg/edit.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/svg/edit.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/svg/exit.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/svg/exit.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/svg/search.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/svg/search.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/svg/soc-telegram.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/svg/soc-telegram.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/svg/soc-whatsapp.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/svg/soc-whatsapp.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/svg/soc-youtube.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/svg/soc-youtube.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/svg/sprite.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/svg/sprite.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/svg/star.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/svg/star.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/svg/user.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/svg/user.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/html/sale-item.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/html/sale-item.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/screen/app/about.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/screen/app/about.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/screen/app/basket.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/screen/app/basket.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/screen/app/catalog.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/screen/app/catalog.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/screen/app/deliver.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/screen/app/deliver.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/screen/app/error-404.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/screen/app/error-404.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/screen/app/error-500.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/screen/app/error-500.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/screen/app/form.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/screen/app/form.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/screen/app/index.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/screen/app/index.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/screen/app/item.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/screen/app/item.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/screen/app/lk.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/screen/app/lk.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/screen/app/main.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/screen/app/main.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/screen/app/modal.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/screen/app/modal.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/screen/app/offer.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/screen/app/offer.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/screen/app/sale-item.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/screen/app/sale-item.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/screen/app/sale-list.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/screen/app/sale-list.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/item.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/item.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/lk.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/lk.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/modal.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/modal.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/module/footer/_footer.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/module/footer/_footer.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/module/header/_header.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/module/header/_header.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/module/modal/_modal.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/module/modal/_modal.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/css/sprite.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/css/sprite.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/pack.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/pack.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/sprite.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/sprite.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/svg/sprite.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/svg/sprite.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/offer.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/offer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/sale-item.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/sale-item.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/sale-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/sale-list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/vacancy.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/vacancy.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -258,7 +209,8 @@
       <workItem from="1599732550749" duration="8599000" />
       <workItem from="1599741765390" duration="10435000" />
       <workItem from="1599819887378" duration="17129000" />
-      <workItem from="1600071438824" duration="6308000" />
+      <workItem from="1600071438824" duration="15563000" />
+      <workItem from="1600158629782" duration="3754000" />
     </task>
     <task id="LOCAL-00001" summary="fix browsersynk">
       <created>1515935102048</created>
@@ -676,6 +628,14 @@
       <screen x="-2560" y="-256" width="2560" height="1400" />
     </state>
     <state x="-1478" y="321" key="FileChooserDialogImpl/0.0.1920.1040/1920.166.1280.984/-2560.-256.2560.1400@-2560.-256.2560.1400" timestamp="1595160551665" />
+    <state x="-1407" y="345" key="Github.ShareDialog" timestamp="1600086595359">
+      <screen x="-2560" y="-256" width="2560" height="1400" />
+    </state>
+    <state x="-1407" y="345" key="Github.ShareDialog/-2560.-256.2560.1400/0.0.1920.1040/1920.166.1280.984@-2560.-256.2560.1400" timestamp="1600086595359" />
+    <state x="-1446" y="165" key="Github.UntrackedFilesDialog" timestamp="1600086606901">
+      <screen x="-2560" y="-256" width="2560" height="1400" />
+    </state>
+    <state x="-1446" y="165" key="Github.UntrackedFilesDialog/-2560.-256.2560.1400/0.0.1920.1040/1920.166.1280.984@-2560.-256.2560.1400" timestamp="1600086606901" />
     <state x="-1779" y="87" key="SettingsEditor" timestamp="1600086573487">
       <screen x="-2560" y="-256" width="2560" height="1400" />
     </state>
@@ -691,16 +651,16 @@
       <screen x="-2560" y="-256" width="2560" height="1400" />
     </state>
     <state x="-1414" y="288" key="cloudConfig.SelfSettingsDialog/0.0.1920.1040/1920.166.1280.984/-2560.-256.2560.1400@-2560.-256.2560.1400" timestamp="1595160633744" />
-    <state x="-1662" y="90" width="762" height="709" key="find.popup" timestamp="1600074010105">
+    <state x="-1662" y="90" width="762" height="709" key="find.popup" timestamp="1600164080261">
       <screen x="-2560" y="-256" width="2560" height="1400" />
     </state>
-    <state x="-1662" y="90" width="762" height="709" key="find.popup/-2560.-256.2560.1400/0.0.1920.1040/1920.166.1280.984@-2560.-256.2560.1400" timestamp="1600074010105" />
+    <state x="-1662" y="90" width="762" height="709" key="find.popup/-2560.-256.2560.1400/0.0.1920.1040/1920.166.1280.984@-2560.-256.2560.1400" timestamp="1600164080261" />
     <state x="-1661" y="90" width="762" height="709" key="find.popup/0.0.1920.1040/1920.166.1280.984/-2560.-256.2560.1400@-2560.-256.2560.1400" timestamp="1599765866254" />
     <state x="674" y="257" width="571" height="526" key="find.popup/1920.166.1280.984/0.0.1920.1040/-2560.-256.2560.1400@0.0.1920.1040" timestamp="1595106956142" />
-    <state x="-1617" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1600086286427">
+    <state x="-1617" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1600165195255">
       <screen x="-2560" y="-256" width="2560" height="1400" />
     </state>
-    <state x="-1617" y="59" width="672" height="678" key="search.everywhere.popup/-2560.-256.2560.1400/0.0.1920.1040/1920.166.1280.984@-2560.-256.2560.1400" timestamp="1600086286427" />
+    <state x="-1617" y="59" width="672" height="678" key="search.everywhere.popup/-2560.-256.2560.1400/0.0.1920.1040/1920.166.1280.984@-2560.-256.2560.1400" timestamp="1600165195255" />
     <state x="707" y="234" width="672" height="504" key="search.everywhere.popup/-2560.-256.2560.1400/0.0.1920.1040/1920.166.1280.984@0.0.1920.1040" timestamp="1595416210720" />
     <state x="-1617" y="59" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.166.1280.984/-2560.-256.2560.1400@-2560.-256.2560.1400" timestamp="1599748243951" />
     <state x="-1617" y="59" width="896" height="679" key="search.everywhere.popup/1920.166.1280.984/0.0.1920.1040/-2560.-256.2560.1400@-2560.-256.2560.1400" timestamp="1595107033280" />
