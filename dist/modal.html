@@ -245,6 +245,7 @@
                 <p>Чтобы вызвать нужное окно добавь на элемент класс .modal-get и data-modal="имя окна"</p>
                 <p>Чтобы добавить метод закрытия окна по клику на элемент добавиь класс .modal-send</p>
                 <div class="btn-wrap">
+                    <div class="btn--md btn--mark modal-get" data-modal="phoneEnter">Вход по телефону | data-modal="phoneEnter"</div>
                     <div class="btn--md btn--mark modal-get" data-modal="enter">Вход | data-modal="enter"</div>
                     <div class="btn--md btn--mark modal-get" data-modal="sms">Вход-смс | data-modal="sms"</div>
                     <div class="btn--md btn--mark modal-get" data-modal="registration">Регистрация | data-modal="registration"</div>
@@ -373,7 +374,7 @@
             <div class="modal-filter"></div>
             <div class="modal-wrap">
                 <!-- phone enter-->
-                <div class="modal" data-modal="enter">
+                <div class="modal" data-modal="phoneEnter">
                     <div class="modal-content">
                         <div class="modal-close">
                             <svg class="icon">
@@ -402,6 +403,25 @@
                             </div>
                         </div>
                         <input class="modal-send" type="submit" value="Получить код" />
+                    </div>
+                </div>
+                <!-- phone enter === end-->
+                <!-- phone enter-->
+                <div class="modal" data-modal="enter">
+                    <div class="modal-content">
+                        <div class="modal-close">
+                            <svg class="icon">
+                                <use xlink:href="#close"></use>
+                            </svg>
+                        </div>
+                        <div class="modal-title">Вход на сайт</div>
+                        <div class="input-row">
+                            <input class="input" type="text" name="name" placeholder="Телефон" />
+                        </div>
+                        <div class="input-row">
+                            <input class="input" type="text" name="name" placeholder="Пароль" />
+                        </div>
+                        <input class="modal-send" type="submit" value="Войти" />
                         <a class="modal-link" href="#">Забыли пароль</a>
                         <a class="modal-link" href="#">Регистрация</a>
                     </div>

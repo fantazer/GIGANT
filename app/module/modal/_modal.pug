@@ -3,7 +3,7 @@ mixin modal()
 		.modal-filter
 		.modal-wrap
 			// phone enter
-			.modal(data-modal="enter")
+			.modal(data-modal="phoneEnter")
 				.modal-content
 					.modal-close
 						+icon("close","icon")
@@ -19,6 +19,20 @@ mixin modal()
 									+icon("checked","icon")
 								.style-input-text Cогласен с #[a(href="#") условиями обработки]&nbsp;персональных данных
 					input(type="submit" value="Получить код").modal-send
+			// phone enter === end
+
+			// phone enter
+			.modal(data-modal="enter")
+				.modal-content
+					.modal-close
+						+icon("close","icon")
+					.modal-title Вход на сайт
+					.input-row
+						input(type="text" name="name" placeholder="Телефон").input
+					.input-row
+						input(type="text" name="name" placeholder="Пароль").input
+
+					input(type="submit" value="Войти").modal-send
 					a(href="#").modal-link Забыли пароль
 					a(href="#").modal-link Регистрация
 			// phone enter === end
