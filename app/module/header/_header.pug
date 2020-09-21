@@ -37,11 +37,11 @@ mixin header()
 								a(href="#").soc-row__el
 									+icon("soc-fl","icon")
 						.header-info__text Сегодня 10 - 24
+					.header-menu-search
+						+icon("search","icon js-toggle-search")
 					.header-auth
 						+icon("user","icon")
 						.header-auth-state Александр
-					.header-menu-search.mobile--show
-						+icon("search","icon js-toggle-search")
 					.cart-wrap.cart-wrap--mobile
 						.cart
 							+icon("cart--color","icon")
@@ -99,7 +99,7 @@ mixin header()
 						a(href="#").header-nav__el Вакансии
 						a(href="#").header-nav__el О нас
 					
-					.header-menu-search.mobile--hidden.js-toggle-search
+					//.header-menu-search.js-toggle-search
 						+icon("search","icon js-toggle-search")
 					.cart-wrap.cart-wrap--desktop
 						.cart-cost 2 850 ₽
