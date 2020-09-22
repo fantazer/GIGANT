@@ -2,6 +2,13 @@ mixin header()
 	//block header
 	.header
 		//header-top
+		.header-add-wrap
+			.main-cont
+				.header-add
+					a(href="#").header-add__el Акции
+					a(href="#").header-add__el Доставка и оплата
+					a(href="#").header-add__el Вакансии
+					a(href="#").header-add__el О нас
 		.header-top-wrap
 			.main-cont
 				.header-top
@@ -93,11 +100,13 @@ mixin header()
 								];
 						each item in items
 							a(href="#").header-nav__el #{item}
-					.header-nav.header-nav--add
-						a(href="#").header-nav__el Акции
-						a(href="#").header-nav__el Доставка и оплата
-						a(href="#").header-nav__el Вакансии
-						a(href="#").header-nav__el О нас
+						.header-nav__more
+							span Eще
+							.header-nav-sub
+								a(href="#").header-nav-sub__el Десерты
+								a(href="#").header-nav-sub__el Напитки
+								a(href="#").header-nav-sub__el Дополнительно
+								a(href="#").header-nav-sub__el Замороженная продукция
 					
 					//.header-menu-search.js-toggle-search
 						+icon("search","icon js-toggle-search")

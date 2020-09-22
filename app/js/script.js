@@ -217,19 +217,22 @@ $(document).ready(function () {
 	// dropdown === end
 
 	// toggle slideDown
-	var slideDown = function(target,container){
-		$(document).mouseup(function (e) {
-			if (!$(target).is(e.target) && !$(container).is(e.target) && $(container).has(e.target).length === 0) {
-					 $(container).slideUp();
-			 }
-			 if($(target).is(e.target)){
-					$(container).slideToggle()
-			 }
-		});
+	var slideDown = function(target,container,size){
+		size = size ? size : 0
+		if($(window).width()>size){
+			$(document).mouseup(function (e) {
+				if (!$(target).is(e.target) && !$(container).is(e.target) && $(container).has(e.target).length === 0) {
+						 $(container).slideUp();
+				 }
+				 if($(target).is(e.target)){
+						$(container).slideToggle()
+				 }
+			});
+		}
 	}
 	slideDown('.js-toggle-search','.search-cont');
+	slideDown('.header-nav__more span',".header-nav-sub",769)
 	// toggle slideDown === end
-
 
 	//main slider
 	$('.main-slider').slick({

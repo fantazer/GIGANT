@@ -53,6 +53,8 @@ body
 	margin 0
 	z-index 100
 	animation:  slideInDown  1s 1 ease-in-out;
+	.header-add-wrap
+		display none
 	.header-info__phone
 		color white
 	.header-info__callback
@@ -403,6 +405,15 @@ body
 		padding: 5px 0
 	padding: 20px 0 10px 0
 	background: white
+.header-add-wrap
+	+below(640px)
+		display none
+	padding: 5px 0
+	background: #f9f9f9
+.header-add__el
+	font-size: 12px
+	margin-right: 10px
+	color $gray
 //.main-cont
 .header-top
 	f()
@@ -527,8 +538,9 @@ body
 .slide-header-contact
 	margin-top: 30px
 .header-menu-wrap
+	+below(768px)
+		overflow-x scroll
 	white-space nowrap
-	overflow-x auto
 	border-bottom 1px solid $border-color
 	padding: 10px 0
 	position: relative
@@ -553,6 +565,42 @@ body
 .header-nav--add
 	.header-nav__el
 		color $gray
+
+.header-nav__more
+	+below(1440px)
+		font-size: 14px
+	+above(769px)
+		position relative
+		border-bottom 1px dashed gray
+		cp()
+		white-space nowrap
+		padding: 5px 0
+		margin-left: 10px
+	span
+		+below(769px)
+			display none
+.header-nav-sub
+	+above(769px)
+		display none
+		position absolute
+		top calc(100% + 10px)
+		left -10px
+		box-shadow 0 0 10px rgba(0, 0, 0, 0.07)
+		border-radius 10px
+		background-color #ffffff
+		padding 20px
+		br(10px)
+		z-index 100
+		a
+			display block
+			margin-bottom: 10px
+			&:last-child
+				margin-bottom: 0
+.header-nav-sub__el
+	+below(768px)
+		padding: 5px 10px
+	&:hover
+		color $mark
 .cart-wrap
 	+below(1280px)
 		margin: 0 10px

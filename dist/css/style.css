@@ -385,6 +385,7 @@ h1,
 .title {
   margin-bottom: 30px;
   font-weight: 700;
+  line-height: 1.4;
 }
 .title--clear {
   margin-bottom: 10px;
@@ -1648,6 +1649,9 @@ body {
   -webkit-animation: slideInDown 1s 1 ease-in-out;
           animation: slideInDown 1s 1 ease-in-out;
 }
+.shrink .header-add-wrap {
+  display: none;
+}
 .shrink .header-info__phone {
   color: #fff;
 }
@@ -2142,6 +2146,20 @@ body {
     padding: 5px 0;
   }
 }
+.header-add-wrap {
+  padding: 5px 0;
+  background: #f9f9f9;
+}
+@media only screen and (max-width: 640px) {
+  .header-add-wrap {
+    display: none;
+  }
+}
+.header-add__el {
+  font-size: 12px;
+  margin-right: 10px;
+  color: #b4b4b4;
+}
 .header-top {
   display: -webkit-box;
   display: -webkit-flex;
@@ -2389,10 +2407,14 @@ body {
 }
 .header-menu-wrap {
   white-space: nowrap;
-  overflow-x: auto;
   border-bottom: 1px solid #ececec;
   padding: 10px 0;
   position: relative;
+}
+@media only screen and (max-width: 768px) {
+  .header-menu-wrap {
+    overflow-x: scroll;
+  }
 }
 .header-menu-wrap .logo {
   display: none;
@@ -2435,6 +2457,58 @@ body {
 }
 .header-nav--add .header-nav__el {
   color: #b4b4b4;
+}
+@media only screen and (max-width: 1440px) {
+  .header-nav__more {
+    font-size: 14px;
+  }
+}
+@media only screen and (min-width: 769px) {
+  .header-nav__more {
+    position: relative;
+    border-bottom: 1px dashed #aaa;
+    white-space: nowrap;
+    padding: 5px 0;
+    margin-left: 10px;
+  }
+  .header-nav__more:hover {
+    cursor: pointer;
+  }
+}
+@media only screen and (max-width: 769px) {
+  .header-nav__more span {
+    display: none;
+  }
+}
+@media only screen and (min-width: 769px) {
+  .header-nav-sub {
+    display: none;
+    position: absolute;
+    top: -webkit-calc(100% + 10px);
+    top: calc(100% + 10px);
+    left: -10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.07);
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    z-index: 100;
+  }
+  .header-nav-sub a {
+    display: block;
+    margin-bottom: 10px;
+  }
+  .header-nav-sub a:last-child {
+    margin-bottom: 0;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .header-nav-sub__el {
+    padding: 5px 10px;
+  }
+}
+.header-nav-sub__el:hover {
+  color: #00c2ff;
 }
 .cart-wrap {
   display: -webkit-box;
