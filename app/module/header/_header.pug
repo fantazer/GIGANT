@@ -5,7 +5,6 @@ mixin header()
 		.header-add-wrap
 			.main-cont
 				.header-add
-					a(href="#").header-add__el Акции
 					a(href="#").header-add__el Доставка и оплата
 					a(href="#").header-add__el Вакансии
 					a(href="#").header-add__el О нас
@@ -91,8 +90,10 @@ mixin header()
 		.header-menu-wrap
 			.main-cont
 				.header-menu
-					a(href="/").logo
+					a(href="/").logo.logo--lg
 						img(src="img/logo.svg", alt="")
+					a(href="/").logo.logo--sm
+						img(src="img/whale.svg", alt="")
 					.header-nav
 						-
 							var items = [
@@ -100,6 +101,7 @@ mixin header()
 								];
 						each item in items
 							a(href="#").header-nav__el #{item}
+						a(href="#").header-nav__el.header-nav__el--mark Акции
 						.header-nav__more
 							span Eще
 							.header-nav-sub

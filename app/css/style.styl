@@ -81,6 +81,12 @@ body
 		margin-left auto
 	.header-menu-search
 		display none
+	.logo--lg
+		display none!important
+	.logo--sm
+		display block!important
+		width: 60px
+		margin-right: 10px
 // error
 .page-error
 	flex(mid)
@@ -427,6 +433,9 @@ body
 		max-width 140px
 	margin-right: 3%
 	max-width 260px
+.logo--sm
+	display none!important
+
 .header-location
 	+below(1024px)
 		display: none
@@ -562,6 +571,11 @@ body
 	&:hover
 		color white!important
 		background: $mark
+
+.header-nav__el--mark
+	color $mark
+	border 1px solid $mark
+	margin: 0 10px
 .header-nav--add
 	.header-nav__el
 		color $gray
@@ -2777,3 +2791,20 @@ l
 	max-width 768px
 	p
 		font-size: 12px
+
+.success
+	flex(mid)
+	fl()
+	max-width 350px
+	margin: 30px auto
+.success-img
+	margin-bottom: 20px
+.success-title
+	text-align center
+	@extend .type--xl
+	font-weight: 700
+	margin-bottom: 20px
+.success-text
+	text-align center
+	line-height: 1.4
+	margin-bottom: 30px
