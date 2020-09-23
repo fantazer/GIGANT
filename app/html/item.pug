@@ -11,7 +11,10 @@ include block_html/_include.pug
 					.item-img(style="background-image:url('img/item-card-1.jpg')")
 				// item-info
 				.item-info
-					.title.title--xl.title--clear Четыре сыра
+					.title-row
+						.arrow(onclick="window.history.go(-1); return false;")
+							+icon("arrow-conner-left","icon")
+						.title.title--xl Четыре сыра
 					.item-descr Сыр, пицца-соус, ананас, сыр, перец болгарский, куриное филе, пицца-соус, ананас
 
 					// size
@@ -21,8 +24,6 @@ include block_html/_include.pug
 							.size__el 30 см
 							.size__el 45 см
 					// size === end
-
-
 
 					// item-config
 					.item-config-row

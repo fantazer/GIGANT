@@ -34,7 +34,6 @@ mixin header()
 								+icon("phone","icon")
 							.header-info__val
 								a(href="tel:+7 (3852) 58-55-05")  <span>+7 (3852)</span>&nbsp;58-55-05
-								a(href="tel:+7 (3852) 58-85-05")  <span>+7 (3852)</span>&nbsp;58-85-05
 							.soc-row.soc-row--sm
 								a(href="#").soc-row__el
 									+icon("soc-instagram","icon")
@@ -44,7 +43,9 @@ mixin header()
 									+icon("soc-fl","icon")
 						.header-info__text Сегодня 10 - 24
 					.header-menu-search
-						+icon("search","icon js-toggle-search")
+						.header-menu-search__cont
+							input(type="text" placeholder="Что ищем").input
+							+icon("search","icon js-toggle-search")
 					.header-auth
 						+icon("user","icon")
 						.header-auth-state Александр
@@ -86,7 +87,6 @@ mixin header()
 						+icon("soc-instagram","icon")
 					a(href="#").soc-row__el
 						+icon("soc-vk","icon")
-
 		.header-menu-wrap
 			.main-cont
 				.header-menu

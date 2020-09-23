@@ -789,15 +789,42 @@ body
 .header-menu-search
 	+below(640px)
 		margin-right: 0
+		min-width auto
+		position: static
+		width: auto
 	cp()
 	position relative
-	margin 0 20px 0 auto
+	margin 0 10px 0 auto
+	width: 20%
+	min-width 250px
+
 	.icon
 		+below(1280px)
 			margin: 0 10px
-		size 24px
+		+below(640px)
+			position: relative
+			z-index 10
+			right: 0
+		size 22px
 		fill $mark
-		margin-left: 20px
+		position absolute
+		right: 10px
+		top calc(50% - 12px)
+	.input
+		+below(640px)
+			position absolute
+			left 5px
+			top 0
+			width calc(100% - 60px)
+		position relative
+		padding-right: 30px
+		background: white
+		border 1px solid $border-color
+		border-radius 30px
+		display none
+		transition none
+		height: 40px
+		width: 100%
 // soc-row === end
 
 // search
@@ -860,7 +887,7 @@ body
 	+below(480px)
 		grid-template-columns: 1fr
 	//flex(between)
-	margin: 50px 0
+	margin: 50px 0 120px 0
 	display: grid
 	grid-gap 40px
 	grid-template-columns: repeat(auto-fill, minmax(14rem,1fr))

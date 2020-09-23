@@ -230,9 +230,15 @@ $(document).ready(function () {
 			});
 		}
 	}
-	slideDown('.js-toggle-search','.search-cont');
+
+	slideDown('.js-toggle-search',".header-menu-search input")
 	slideDown('.header-nav__more span',".header-nav-sub",769)
 	// toggle slideDown === end
+
+	// Toggle search
+
+	// Toggle search === end
+
 
 	//main slider
 	$('.main-slider').slick({
