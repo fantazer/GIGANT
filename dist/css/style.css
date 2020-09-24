@@ -6273,6 +6273,20 @@ l,
   line-height: 1.4;
   margin-bottom: 30px;
 }
+.product-sale {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding: 100% 10%;
+  border-radius: 10px;
+  overflow: hidden;
+  background-size: contain;
+}
+@media only screen and (max-width: 1024px) {
+  .product-sale {
+    display: none;
+  }
+}
 @-webkit-keyframes slideInDown {
   from {
     -webkit-transform: translate3d(0, -100%, 0);
