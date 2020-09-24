@@ -2076,6 +2076,12 @@ body {
   width: calc(100% - 30px);
   font-size: 12px;
 }
+@media only screen and (max-width: 640px) {
+  .cookie-text {
+    font-size: 10px;
+    line-height: 1.6;
+  }
+}
 .dropdown {
   width: 100%;
   display: inline-block;
@@ -4020,9 +4026,11 @@ body {
 .item-prop__cost {
   white-space: nowrap;
   font-weight: 700;
+  min-width: 40px;
+  text-align: right;
 }
 .item-prop__incr {
-  margin: 0 20px 0 10px;
+  margin: 0 10px;
 }
 .ingr-row {
   display: -webkit-box;
@@ -4073,6 +4081,8 @@ body {
   }
 }
 .ingr-total {
+  width: 50px;
+  text-align: right;
   white-space: nowrap;
 }
 .item-total {

@@ -343,6 +343,9 @@ body
 		fill $gray
 		cp()
 .cookie-text
+	+below(640px)
+		font-size: 10px
+		line-height: 1.6
 	width calc(100% - 30px)
 	font-size: 12px
 // cookie === end
@@ -1520,8 +1523,10 @@ body
 	white-space nowrap
 	@extend .type--sm
 	font-weight 700
+	min-width: 40px
+	text-align: right
 .item-prop__incr
-	margin 0 20px 0 10px
+	margin 0 10px
 .ingr-row
 	f()
 	align-items center
@@ -1551,6 +1556,8 @@ body
 	color $gray
 	white-space nowrap
 .ingr-total
+	width: 50px
+	text-align: right
 	white-space nowrap
 .item-total
 	+below(1024px)
