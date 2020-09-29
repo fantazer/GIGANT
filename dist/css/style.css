@@ -197,7 +197,8 @@ h5,
 .address__val,
 .deliver-info-text,
 .vacancy-list__decr,
-.vacancy-footer__el {
+.vacancy-footer__el,
+.review__el-date {
   font-size: 14px;
 }
 @media only screen and (max-width: 768px) {
@@ -221,7 +222,8 @@ h5,
   .address__val,
   .deliver-info-text,
   .vacancy-list__decr,
-  .vacancy-footer__el {
+  .vacancy-footer__el,
+  .review__el-date {
     font-size: 12px;
   }
 }
@@ -269,7 +271,8 @@ h3,
 .history-info-total__text,
 .goods-get,
 .vacancy-list__title,
-.location-list__el {
+.location-list__el,
+.review__el-name {
   font-size: 18px;
 }
 @media only screen and (max-width: 768px) {
@@ -299,7 +302,8 @@ h3,
   .history-info-total__text,
   .goods-get,
   .vacancy-list__title,
-  .location-list__el {
+  .location-list__el,
+  .review__el-name {
     font-size: 15px;
   }
 }
@@ -453,6 +457,11 @@ h1,
     display: none;
   }
 }
+@media only screen and (max-width: 640px) {
+  .title-row .btn--sm {
+    width: 100%;
+  }
+}
 .arrow {
   display: -webkit-box;
   display: -webkit-flex;
@@ -536,9 +545,6 @@ h1,
   font-weight: 400;
   margin-left: 20px;
   display: inline;
-  -webkit-align-self: flex-end;
-      -ms-flex-item-align: end;
-          align-self: flex-end;
   color: #b4b4b4;
 }
 @media only screen and (max-width: 767px) {
@@ -6286,6 +6292,102 @@ l,
   .product-sale {
     display: none;
   }
+}
+.review {
+  -webkit-column-count: 2;
+          column-count: 2;
+  -webkit-column-gap: 40px;
+          column-gap: 40px;
+}
+@media only screen and (max-width: 1024px) {
+  .review {
+    margin-top: 20px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .review {
+    -webkit-column-count: 1;
+            column-count: 1;
+  }
+}
+.review__el {
+  background: #f9f9f9;
+  padding: 30px;
+  margin-bottom: 40px;
+  display: inline-block;
+  width: 100%;
+  border-radius: 10px;
+}
+@media only screen and (max-width: 640px) {
+  .review__el {
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+}
+.review__el-head {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 10px;
+}
+.review__el-icon {
+  margin-right: 30px;
+}
+@media only screen and (max-width: 640px) {
+  .review__el-icon {
+    margin-right: 15px;
+  }
+}
+.review__el-icon .icon {
+  width: 50px;
+  height: 50px;
+  fill: #f98888;
+}
+@media only screen and (max-width: 640px) {
+  .review__el-icon .icon {
+    width: 30px;
+    height: 30px;
+  }
+}
+.review__el-icon--true .icon {
+  fill: #2ecc40;
+}
+.review__el-name {
+  color: #2b2c34;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.review__el-date {
+  color: #b4b4b4;
+  font-weight: 300;
+}
+.review__el-text {
+  padding-left: 80px;
+  line-height: 1.8;
+}
+@media only screen and (max-width: 640px) {
+  .review__el-text {
+    padding-left: 0;
+  }
+}
+.review__el-text p {
+  font-size: 14px;
+}
+.loader {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 20px 0;
 }
 @-webkit-keyframes slideInDown {
   from {
