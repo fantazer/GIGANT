@@ -1537,6 +1537,23 @@ body
 	&:first-child
 		padding-top: 0
 
+.ingr-row--disable
+	position relative
+	&:before
+		content ''
+		position absolute
+		top 0
+		left 0
+		height: 100%
+		width: 100%
+		background: #ffffffcf
+		z-index 10
+.ingr-row--unPlus
+	.incr__plus
+		opacity: .0
+		pointer-events none
+
+
 .ingr-row--clear
 	padding: 0
 	margin-bottom: 15px
@@ -1568,6 +1585,10 @@ body
 	align-items center
 	margin-bottom: 40px
 	margin-top: 30px
+.item-total--disable
+	.btn--mark
+		background: $snow
+		pointer-events none
 .item-total-wrap
 	+below(640px)
 		margin-right: 0
@@ -1647,8 +1668,9 @@ body
 	color white
 	margin: 10px 0
 .msg--info
-	background: $mark
-	color white
+	color $mark
+	border 1px solid $mark
+	margin: 30px 0
 .msg--alert
 	background: red
 // msg === end

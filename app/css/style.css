@@ -4057,6 +4057,23 @@ body {
 .ingr-row:first-child {
   padding-top: 0;
 }
+.ingr-row--disable {
+  position: relative;
+}
+.ingr-row--disable:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(255,255,255,0.812);
+  z-index: 10;
+}
+.ingr-row--unPlus .incr__plus {
+  opacity: 0;
+  pointer-events: none;
+}
 .ingr-row--clear {
   padding: 0;
   margin-bottom: 15px;
@@ -4116,6 +4133,10 @@ body {
         -ms-flex-flow: column;
             flex-flow: column;
   }
+}
+.item-total--disable .btn--mark {
+  background: #f3f3f3;
+  pointer-events: none;
 }
 .item-total-wrap {
   margin-right: 30px;
@@ -4253,8 +4274,9 @@ body {
   margin: 10px 0;
 }
 .msg--info {
-  background: #00c2ff;
-  color: #fff;
+  color: #00c2ff;
+  border: 1px solid #00c2ff;
+  margin: 30px 0;
 }
 .msg--alert {
   background: #ff4136;

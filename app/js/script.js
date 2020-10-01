@@ -410,9 +410,9 @@ $(document).ready(function () {
 	});
 	//bubble===end
 
-		//upload-btn
+	//upload-btn
 	$(".upload-btn").change(function () { //Если выбрал файл
-		console.log('img');
+		//console.log('img');
 		if (this.files && this.files[0]) {
 			$('.upload-img').append('<div class="upload-img__el" onclick="this.parentNode.removeChild(this);"></div>');
 			var currentUpload = $('.upload-img .upload-img__el:last'); //выбираем куда
@@ -424,10 +424,57 @@ $(document).ready(function () {
 		}
 	});
 	$('.upload-img__el').click(function(){
-		console.log('remove');
+		//console.log('remove');
 		$(this).remove();
 	});
 	//upload-btn
+
+	// calc adds
+	var minAdds = $(".js-ingr-wrap").data("min");
+	var maxAdds = $(".js-ingr-wrap").data("max");
+	var currentSizeAdds = 0;
+
+	window.addState={};
+	window.addState.min = minAdds;
+	window.addState.max = maxAdds;
+	window.addState.isRequiredSize = false;
+	window.addState.isMax = false;
+
+	if(minAdds){$(".item-total").addClass("item-total--disable");}
+
+	//console.log("Минимум:",minAdds);
+	//console.log("Максимум:",maxAdds);
+	$('.js-ingr-wrap .incr__nav').click(function(){
+		currentSizeAdds = 0
+		$('.js-ingr-wrap .incr__val').each(function(){
+			currentSizeAdds = currentSizeAdds + $(this).text()*1;
+		})
+		console.log("Общее кол-во",currentSizeAdds);
+		if(currentSizeAdds>=minAdds){
+			$('.item-total').removeClass('item-total--disable');
+			window.addState.isRequiredSize = true;
+		}else{
+			$('.item-total').addClass('item-total--disable');
+			window.addState.isRequiredSize = false;
+		}
+
+		if(currentSizeAdds===maxAdds){
+			$('.js-ingr-wrap .ingr-row').each(function(){
+				if($(this).find(".incr__val").text()*1===0){
+					$(this).addClass("ingr-row--disable");
+				}else{
+					$(this).addClass("ingr-row--unPlus");
+				}
+			})
+			window.addState.isMax = true;
+		}else{
+			$('.js-ingr-wrap .ingr-row').removeClass("ingr-row--disable")
+			$('.js-ingr-wrap .ingr-row').removeClass("ingr-row--unPlus")
+			window.addState.isMax = false;
+		}
+
+	});
+	// calc adds === end
 
 	//window.condition = {};
 	//window.condition.info = info;

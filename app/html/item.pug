@@ -26,23 +26,23 @@ include block_html/_include.pug
 					// size === end
 
 					// item-config
-					.item-config-row
+					.item-config-row.js-ingr-wrap(data-min="3" data-max="5")
 						.title Дополнительные ингредиенты
-						- for (var i=0;i<12;i++)
+						- for (var i=0;i<4;i++)
 							.ingr-row
 								.ingr-name Корнишоны <span class="type--gray">/ 75г</span>
 								.ingr-cost 16 р
 								.ingr-incr
 									+incr(false,"incr--single incr--mark-light incr--sm")
 								.ingr-total 32 р
-						.msg.msg--info.hidden
-							.msg-text Вы можете добавить до 6ти доп. ингрединтов
+						.msg.msg--info
+							// .msg--info || .msg--alert
+							.msg-text Вы можете добавить до 6-ти доп. ингрединтов
 					//  === end
 
 					// item-config
 					.item-config-row
 						.title Не забудьте добавить к заказу:
-						// .msg--info || .msg--alert
 
 						.item-prop
 							.item-prop__img(style="background-image:url('img/prop-3.jpg')")
