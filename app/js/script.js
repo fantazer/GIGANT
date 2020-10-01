@@ -430,49 +430,48 @@ $(document).ready(function () {
 	//upload-btn
 
 	// calc adds
-	var minAdds = $(".js-ingr-wrap").data("min");
-	var maxAdds = $(".js-ingr-wrap").data("max");
-	var currentSizeAdds = 0;
 
-	window.addState={};
-	window.addState.min = minAdds;
-	window.addState.max = maxAdds;
-	window.addState.isRequiredSize = false;
-	window.addState.isMax = false;
-
-	if(minAdds){$(".item-total").addClass("item-total--disable");}
 
 	//console.log("Минимум:",minAdds);
 	//console.log("Максимум:",maxAdds);
 	$('.js-ingr-wrap .incr__nav').click(function(){
-		currentSizeAdds = 0
-		$('.js-ingr-wrap .incr__val').each(function(){
-			currentSizeAdds = currentSizeAdds + $(this).text()*1;
-		})
-		console.log("Общее кол-во",currentSizeAdds);
-		if(currentSizeAdds>=minAdds){
-			$('.item-total').removeClass('item-total--disable');
-			window.addState.isRequiredSize = true;
-		}else{
-			$('.item-total').addClass('item-total--disable');
-			window.addState.isRequiredSize = false;
-		}
+		var isAllCheck = false;
+		$('.js-ingr-wrap').each(function(){
+			var currentSizeAdds = 0;
+			var minAdds = $(this).closest(".js-ingr-wrap").data("min");
+			var maxAdds = $(this).closest(".js-ingr-wrap").data("max");
 
-		if(currentSizeAdds===maxAdds){
-			$('.js-ingr-wrap .ingr-row').each(function(){
-				if($(this).find(".incr__val").text()*1===0){
-					$(this).addClass("ingr-row--disable");
-				}else{
-					$(this).addClass("ingr-row--unPlus");
-				}
+			$(this).find('.incr__val').each(function(){
+				currentSizeAdds = currentSizeAdds + $(this).text()*1;
 			})
-			window.addState.isMax = true;
+			if(currentSizeAdds>=maxAdds){
+				$(this).find('.ingr-row').each(function(){
+					if($(this).find(".incr__val").text()*1===0){
+						$(this).addClass("ingr-row--disable");
+					}else{
+						$(this).addClass("ingr-row--unPlus");
+					}
+				})
+			}else{
+				$(this).find('.ingr-row').removeClass("ingr-row--disable")
+				$(this).find('.ingr-row').removeClass("ingr-row--unPlus")
+			}
+			//console.log(currentSizeAdds );
+			//console.log(maxAdds);
+			console.log(isAllCheck);
+			if(currentSizeAdds <= maxAdds && currentSizeAdds >= minAdds){
+				 isAllCheck = true
+				return isAllCheck
+			}else{
+				isAllCheck = false
+				return isAllCheck
+			}
+		})
+		if(isAllCheck){
+			$(".item-total").removeClass("item-total--disable");
 		}else{
-			$('.js-ingr-wrap .ingr-row').removeClass("ingr-row--disable")
-			$('.js-ingr-wrap .ingr-row').removeClass("ingr-row--unPlus")
-			window.addState.isMax = false;
+			$(".item-total").addClass("item-total--disable");
 		}
-
 	});
 	// calc adds === end
 

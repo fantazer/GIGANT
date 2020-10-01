@@ -26,9 +26,21 @@ include block_html/_include.pug
 					// size === end
 
 					// item-config
-					.item-config-row.js-ingr-wrap(data-min="3" data-max="5")
+					.item-config-row.js-ingr-wrap(data-min="2" data-max="3")
 						.title Дополнительные ингредиенты
 						- for (var i=0;i<4;i++)
+							.ingr-row
+								.ingr-name Корнишоны <span class="type--gray">/ 75г</span>
+								.ingr-cost 16 р
+								.ingr-incr
+									+incr(false,"incr--single incr--mark-light incr--sm")
+								.ingr-total 32 р
+						.msg.msg--info
+							// .msg--info || .msg--alert
+							.msg-text Вы можете добавить до 6-ти доп. ингрединтов
+					.item-config-row.js-ingr-wrap(data-min="2" data-max="4")
+						.title Дополнительные ингредиенты
+						- for (var i=0;i<6;i++)
 							.ingr-row
 								.ingr-name Корнишоны <span class="type--gray">/ 75г</span>
 								.ingr-cost 16 р
@@ -66,7 +78,7 @@ include block_html/_include.pug
 
 					.item-condition-wrap
 						// item total
-						.item-total
+						.item-total.item-total--disable
 							.item-total-wrap
 								.item-total__info старая цена 299 р
 								.item-total__cond

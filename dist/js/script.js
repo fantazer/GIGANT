@@ -410,9 +410,9 @@ $(document).ready(function () {
 	});
 	//bubble===end
 
-		//upload-btn
+	//upload-btn
 	$(".upload-btn").change(function () { //Если выбрал файл
-		console.log('img');
+		//console.log('img');
 		if (this.files && this.files[0]) {
 			$('.upload-img').append('<div class="upload-img__el" onclick="this.parentNode.removeChild(this);"></div>');
 			var currentUpload = $('.upload-img .upload-img__el:last'); //выбираем куда
@@ -424,10 +424,56 @@ $(document).ready(function () {
 		}
 	});
 	$('.upload-img__el').click(function(){
-		console.log('remove');
+		//console.log('remove');
 		$(this).remove();
 	});
 	//upload-btn
+
+	// calc adds
+
+
+	//console.log("Минимум:",minAdds);
+	//console.log("Максимум:",maxAdds);
+	$('.js-ingr-wrap .incr__nav').click(function(){
+		var isAllCheck = false;
+		$('.js-ingr-wrap').each(function(){
+			var currentSizeAdds = 0;
+			var minAdds = $(this).closest(".js-ingr-wrap").data("min");
+			var maxAdds = $(this).closest(".js-ingr-wrap").data("max");
+
+			$(this).find('.incr__val').each(function(){
+				currentSizeAdds = currentSizeAdds + $(this).text()*1;
+			})
+			if(currentSizeAdds>=maxAdds){
+				$(this).find('.ingr-row').each(function(){
+					if($(this).find(".incr__val").text()*1===0){
+						$(this).addClass("ingr-row--disable");
+					}else{
+						$(this).addClass("ingr-row--unPlus");
+					}
+				})
+			}else{
+				$(this).find('.ingr-row').removeClass("ingr-row--disable")
+				$(this).find('.ingr-row').removeClass("ingr-row--unPlus")
+			}
+			//console.log(currentSizeAdds );
+			//console.log(maxAdds);
+			console.log(isAllCheck);
+			if(currentSizeAdds <= maxAdds && currentSizeAdds >= minAdds){
+				 isAllCheck = true
+				return isAllCheck
+			}else{
+				isAllCheck = false
+				return isAllCheck
+			}
+		})
+		if(isAllCheck){
+			$(".item-total").removeClass("item-total--disable");
+		}else{
+			$(".item-total").addClass("item-total--disable");
+		}
+	});
+	// calc adds === end
 
 	//window.condition = {};
 	//window.condition.info = info;
