@@ -434,17 +434,16 @@ $(document).ready(function () {
 
 	//console.log("Минимум:",minAdds);
 	//console.log("Максимум:",maxAdds);
-	$('.js-ingr-wrap .incr__nav').click(function(){
-		var isAllCheck = false;
+		$('.js-ingr-wrap .incr__nav').click(function(){
+		var isAllCheck = 0
 		$('.js-ingr-wrap').each(function(){
 			var currentSizeAdds = 0;
-			var minAdds = $(this).closest(".js-ingr-wrap").data("min");
-			var maxAdds = $(this).closest(".js-ingr-wrap").data("max");
-
+			var minAdds = $(this).data("min");
+			var maxAdds = $(this).data("max");
 			$(this).find('.incr__val').each(function(){
 				currentSizeAdds = currentSizeAdds + $(this).text()*1;
 			})
-			if(currentSizeAdds>=maxAdds){
+			if(currentSizeAdds>=maxAdds && currentSizeAdds != 0){
 				$(this).find('.ingr-row').each(function(){
 					if($(this).find(".incr__val").text()*1===0){
 						$(this).addClass("ingr-row--disable");
@@ -456,18 +455,14 @@ $(document).ready(function () {
 				$(this).find('.ingr-row').removeClass("ingr-row--disable")
 				$(this).find('.ingr-row').removeClass("ingr-row--unPlus")
 			}
-			//console.log(currentSizeAdds );
 			//console.log(maxAdds);
-			console.log(isAllCheck);
 			if(currentSizeAdds <= maxAdds && currentSizeAdds >= minAdds){
-				 isAllCheck = true
-				return isAllCheck
 			}else{
-				isAllCheck = false
-				return isAllCheck
+				--isAllCheck;
 			}
 		})
-		if(isAllCheck){
+		//console.log(window.isAllCheck.state);
+		if(isAllCheck===0){
 			$(".item-total").removeClass("item-total--disable");
 		}else{
 			$(".item-total").addClass("item-total--disable");
