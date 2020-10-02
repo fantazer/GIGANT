@@ -10,11 +10,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33fc4985-0812-4917-a972-022b8742b981" name="Default" comment="add ingr configurator + fix">
+    <list default="true" id="33fc4985-0812-4917-a972-022b8742b981" name="Default" comment="fix adds calc v2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/html/item.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/html/item.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/item.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/item.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -190,21 +191,8 @@
       <workItem from="1601536352856" duration="3814000" />
       <workItem from="1601552313600" duration="5775000" />
       <workItem from="1601571517719" duration="610000" />
-      <workItem from="1601627740765" duration="5078000" />
-    </task>
-    <task id="LOCAL-00012" summary="add prettier for pug">
-      <created>1545381792538</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1545381792539</updated>
-    </task>
-    <task id="LOCAL-00013" summary="regroup _constant.styl">
-      <created>1545402263464</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1545402263464</updated>
+      <workItem from="1601627740765" duration="7671000" />
+      <workItem from="1601637372856" duration="699000" />
     </task>
     <task id="LOCAL-00014" summary="small fix">
       <created>1545402384458</created>
@@ -535,7 +523,21 @@
       <option name="project" value="LOCAL" />
       <updated>1601556876480</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="fix adds calc">
+      <created>1601633064337</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1601633064338</updated>
+    </task>
+    <task id="LOCAL-00062" summary="fix adds calc v2">
+      <created>1601633098338</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1601633098338</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -576,8 +578,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="fix location fonts + scripts" />
-    <MESSAGE value="add version 3.0.1" />
     <MESSAGE value="fix color input" />
     <MESSAGE value="fix" />
     <MESSAGE value="migrate to node v11.6" />
@@ -601,19 +601,21 @@
     <MESSAGE value="add page review-list" />
     <MESSAGE value="add ingr configurator" />
     <MESSAGE value="add ingr configurator + fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="add ingr configurator + fix" />
+    <MESSAGE value="fix adds calc" />
+    <MESSAGE value="fix adds calc v2" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix adds calc v2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1488" y="302" key="#Scopes" timestamp="1595160507526">
       <screen x="-2560" y="-256" width="2560" height="1400" />
     </state>
     <state x="-1488" y="302" key="#Scopes/0.0.1920.1040/1920.166.1280.984/-2560.-256.2560.1400@-2560.-256.2560.1400" timestamp="1595160507526" />
-    <state x="-1753" y="-103" key="CommitChangelistDialog2" timestamp="1601556871855">
+    <state x="-1753" y="-103" key="CommitChangelistDialog2" timestamp="1601633096363">
       <screen x="-2560" y="-256" width="2560" height="1400" />
     </state>
     <state x="-1753" y="-103" key="CommitChangelistDialog2/-2560.-256.2560.1400/0.0.1920.1040/1920.166.1280.984@-2560.-256.2560.1400" timestamp="1601556871855" />
     <state x="605" y="114" key="CommitChangelistDialog2/-2560.-256.2560.1400/0.0.1920.1040/1920.166.1280.984@0.0.1920.1040" timestamp="1594210490240" />
-    <state x="-1753" y="-103" key="CommitChangelistDialog2/0.0.1920.1040/1920.166.1280.984/-2560.-256.2560.1400@-2560.-256.2560.1400" timestamp="1601376032935" />
+    <state x="-1753" y="-103" key="CommitChangelistDialog2/0.0.1920.1040/1920.166.1280.984/-2560.-256.2560.1400@-2560.-256.2560.1400" timestamp="1601633096363" />
     <state x="-2174" y="-131" key="DiffContextDialog" timestamp="1595160347621">
       <screen x="-2560" y="-256" width="2560" height="1400" />
     </state>
@@ -635,12 +637,12 @@
     </state>
     <state x="-1779" y="87" key="SettingsEditor/-2560.-256.2560.1400/0.0.1920.1040/1920.166.1280.984@-2560.-256.2560.1400" timestamp="1600086573487" />
     <state x="-1779" y="87" key="SettingsEditor/0.0.1920.1040/1920.166.1280.984/-2560.-256.2560.1400@-2560.-256.2560.1400" timestamp="1597054358809" />
-    <state x="-2115" y="45" key="Vcs.Push.Dialog.v2" timestamp="1601556879206">
+    <state x="-2560" y="-256" key="Vcs.Push.Dialog.v2" timestamp="1601633103666">
       <screen x="-2560" y="-256" width="2560" height="1400" />
     </state>
     <state x="-2115" y="45" key="Vcs.Push.Dialog.v2/-2560.-256.2560.1400/0.0.1920.1040/1920.166.1280.984@-2560.-256.2560.1400" timestamp="1601556879206" />
     <state x="0" y="0" key="Vcs.Push.Dialog.v2/-2560.-256.2560.1400/0.0.1920.1040/1920.166.1280.984@0.0.1920.1040" timestamp="1594210493162" />
-    <state x="-2560" y="-256" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.166.1280.984/-2560.-256.2560.1400@-2560.-256.2560.1400" timestamp="1601376051311" />
+    <state x="-2560" y="-256" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.166.1280.984/-2560.-256.2560.1400@-2560.-256.2560.1400" timestamp="1601633103666" />
     <state x="-1414" y="288" key="cloudConfig.SelfSettingsDialog" timestamp="1595160633744">
       <screen x="-2560" y="-256" width="2560" height="1400" />
     </state>

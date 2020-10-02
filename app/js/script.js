@@ -434,7 +434,13 @@ $(document).ready(function () {
 
 	//console.log("Минимум:",minAdds);
 	//console.log("Максимум:",maxAdds);
-		$('.js-ingr-wrap .incr__nav').click(function(){
+	var isLimitVal = 0;
+	$('.js-ingr-wrap').each(function() {
+		isLimitVal += $(this).data("min");
+	})
+	isLimitVal === 0 ? $(".item-total").removeClass("item-total--disable") : false
+
+	$('.js-ingr-wrap .incr__nav').click(function(){
 		var isAllCheck = 0
 		$('.js-ingr-wrap').each(function(){
 			var currentSizeAdds = 0;
