@@ -51,7 +51,7 @@ mixin product(img="item-2.jpg")
         .size__el 400 г
         .size__el 800 г
       //remove hidden
-      .dropdown.hidden
+      .dropdown
         input(type="hidden" name="name" value="0")
         .dropdown-current
           .dropdown-current__val сливочный соус
@@ -60,7 +60,7 @@ mixin product(img="item-2.jpg")
           .dropdown-menu__el(data-value="#") Горчица
           .dropdown-menu__el(data-value="#") Кетчуп
       //remove hidden
-      .check-el.hidden
+      .check-el
         label.style-label.style-label--checkbox
           input(type="checkbox").style-input
           .style-input-element

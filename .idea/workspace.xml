@@ -12,10 +12,20 @@
   <component name="ChangeListManager">
     <list default="true" id="33fc4985-0812-4917-a972-022b8742b981" name="Default" comment="fix adds calc v2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/html/item.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/html/item.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/basket.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/basket.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/catalog.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/catalog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/css/variable/config/_typography.styl" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/variable/config/_typography.styl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/html/block_html/_mixin.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/html/block_html/_mixin.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/item.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/item.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/basket.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/basket.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/catalog.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/catalog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/deliver.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/deliver.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/item.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/item.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/main.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -193,6 +203,16 @@
       <workItem from="1601571517719" duration="610000" />
       <workItem from="1601627740765" duration="7671000" />
       <workItem from="1601637372856" duration="699000" />
+      <workItem from="1601813706003" duration="652000" />
+      <workItem from="1601892434196" duration="2573000" />
+      <workItem from="1601974025166" duration="5233000" />
+      <workItem from="1601990014654" duration="185000" />
+      <workItem from="1602600471165" duration="752000" />
+      <workItem from="1602765269867" duration="1459000" />
+      <workItem from="1603200446287" duration="1467000" />
+      <workItem from="1603269509094" duration="6663000" />
+      <workItem from="1603359589671" duration="1729000" />
+      <workItem from="1603815668133" duration="2179000" />
     </task>
     <task id="LOCAL-00014" summary="small fix">
       <created>1545402384458</created>
@@ -614,7 +634,6 @@
       <screen x="-2560" y="-256" width="2560" height="1400" />
     </state>
     <state x="-1753" y="-103" key="CommitChangelistDialog2/-2560.-256.2560.1400/0.0.1920.1040/1920.166.1280.984@-2560.-256.2560.1400" timestamp="1601556871855" />
-    <state x="605" y="114" key="CommitChangelistDialog2/-2560.-256.2560.1400/0.0.1920.1040/1920.166.1280.984@0.0.1920.1040" timestamp="1594210490240" />
     <state x="-1753" y="-103" key="CommitChangelistDialog2/0.0.1920.1040/1920.166.1280.984/-2560.-256.2560.1400@-2560.-256.2560.1400" timestamp="1601633096363" />
     <state x="-2174" y="-131" key="DiffContextDialog" timestamp="1595160347621">
       <screen x="-2560" y="-256" width="2560" height="1400" />
@@ -641,7 +660,6 @@
       <screen x="-2560" y="-256" width="2560" height="1400" />
     </state>
     <state x="-2115" y="45" key="Vcs.Push.Dialog.v2/-2560.-256.2560.1400/0.0.1920.1040/1920.166.1280.984@-2560.-256.2560.1400" timestamp="1601556879206" />
-    <state x="0" y="0" key="Vcs.Push.Dialog.v2/-2560.-256.2560.1400/0.0.1920.1040/1920.166.1280.984@0.0.1920.1040" timestamp="1594210493162" />
     <state x="-2560" y="-256" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.166.1280.984/-2560.-256.2560.1400@-2560.-256.2560.1400" timestamp="1601633103666" />
     <state x="-1414" y="288" key="cloudConfig.SelfSettingsDialog" timestamp="1595160633744">
       <screen x="-2560" y="-256" width="2560" height="1400" />
@@ -655,17 +673,20 @@
       <screen x="-2560" y="-256" width="2560" height="1400" />
     </state>
     <state x="-1468" y="353" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-2560.-256.2560.1400/0.0.1920.1040/1920.166.1280.984@-2560.-256.2560.1400" timestamp="1601555020778" />
-    <state x="-1661" y="90" width="762" height="709" key="find.popup" timestamp="1601373258698">
-      <screen x="-2560" y="-256" width="2560" height="1400" />
+    <state x="674" y="257" width="572" height="527" key="find.popup" timestamp="1601978696432">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="-1662" y="90" width="762" height="709" key="find.popup/-2560.-256.2560.1400/0.0.1920.1040/1920.166.1280.984@-2560.-256.2560.1400" timestamp="1600780822249" />
+    <state x="674" y="257" width="572" height="527" key="find.popup/-2560.-256.2560.1400/0.0.1920.1040/1920.166.1280.984@0.0.1920.1040" timestamp="1601978696432" />
     <state x="-1661" y="90" width="762" height="709" key="find.popup/0.0.1920.1040/1920.166.1280.984/-2560.-256.2560.1400@-2560.-256.2560.1400" timestamp="1601373258698" />
     <state x="674" y="257" width="571" height="526" key="find.popup/1920.166.1280.984/0.0.1920.1040/-2560.-256.2560.1400@0.0.1920.1040" timestamp="1595106956142" />
-    <state x="-1617" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1601374010994">
-      <screen x="-2560" y="-256" width="2560" height="1400" />
+    <state x="943" y="-846" width="672" height="504" key="search.everywhere.popup" timestamp="1603272955278">
+      <screen x="0" y="-1080" width="2560" height="1040" />
     </state>
+    <state x="-1617" y="122" width="672" height="678" key="search.everywhere.popup/-2560.-193.2560.1400/0.0.1920.1040/0.-1080.2560.1040/1920.52.1280.984@-2560.-193.2560.1400" timestamp="1602765276351" />
     <state x="-1617" y="59" width="672" height="678" key="search.everywhere.popup/-2560.-256.2560.1400/0.0.1920.1040/1920.166.1280.984@-2560.-256.2560.1400" timestamp="1600953735554" />
     <state x="707" y="234" width="672" height="504" key="search.everywhere.popup/-2560.-256.2560.1400/0.0.1920.1040/1920.166.1280.984@0.0.1920.1040" timestamp="1595416210720" />
+    <state x="943" y="-846" width="672" height="504" key="search.everywhere.popup/0.0.1920.1040/0.-1080.2560.1040/1920.52.1280.984/-2560.-193.2560.1400@0.-1080.2560.1040" timestamp="1603272955278" />
     <state x="-1617" y="59" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.166.1280.984/-2560.-256.2560.1400@-2560.-256.2560.1400" timestamp="1601374010994" />
     <state x="-1617" y="59" width="896" height="679" key="search.everywhere.popup/1920.166.1280.984/0.0.1920.1040/-2560.-256.2560.1400@-2560.-256.2560.1400" timestamp="1595107033280" />
     <state x="707" y="234" width="672" height="504" key="search.everywhere.popup/1920.166.1280.984/0.0.1920.1040/-2560.-256.2560.1400@0.0.1920.1040" timestamp="1595106894872" />

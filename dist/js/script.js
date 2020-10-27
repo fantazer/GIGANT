@@ -187,7 +187,6 @@ $(document).ready(function () {
 		incrEl.state.html(incrEl.value);
 	});
 
-
 	$('.incr--single .incr__nav').click(function(){
 		var parrent = $(this).closest(".incr--single")
 		if(incrEl.value){
@@ -196,7 +195,6 @@ $(document).ready(function () {
 			parrent.removeClass('incr--single-active');
 		}
 	});
-
 	// incr === end
 
 	// dropdown
@@ -476,7 +474,17 @@ $(document).ready(function () {
 		}
 	});
 	// calc adds === end
+	var resetItemIngr = function(){
+		$('.ingr-row').removeClass('ingr-row--disable ingr-row--unPlus');
+		$(".item-total").removeClass("item-total--disable");
+		$('.ingr-row .incr__val span').text(0)
+		$('.ingr-row .incr').removeClass('incr--single-active');
+		$('.item-total').addClass('item-total--disable');
+	}
 
+	window.resetItemMethods = resetItemIngr;
 	//window.condition = {};
 	//window.condition.info = info;
+	
+
 });
