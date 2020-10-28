@@ -2482,6 +2482,14 @@ body {
     width: 100%;
   }
 }
+@media only screen and (max-width: 640px) {
+  .header-nav {
+    -webkit-box-pack: initial;
+    -webkit-justify-content: initial;
+        -ms-flex-pack: initial;
+            justify-content: initial;
+  }
+}
 .header-nav__el {
   color: #2b2c34;
   padding: 5px 10px;
