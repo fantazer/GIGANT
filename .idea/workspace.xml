@@ -10,8 +10,15 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33fc4985-0812-4917-a972-022b8742b981" name="Default" comment="fix css bugs">
+    <list default="true" id="33fc4985-0812-4917-a972-022b8742b981" name="Default" comment="fix header-nav">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/basket.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/basket.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/catalog.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/catalog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/css/style.styl" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/style.styl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/html/block_html/_mixin.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/html/block_html/_mixin.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/item.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/item.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/main.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +45,7 @@
     <property name="SearchEverywhereHistoryKey" value="clone&#9;ACTION&#9;Git.Clone" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="add_unversioned_files" value="true&#10;E:/PROJECT/WORK/GIGANT/app/bower/slick-carousel/slick/slick-theme.css" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/img/svg" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../OPEN-SERVICE" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -199,14 +206,14 @@
       <workItem from="1603269509094" duration="6663000" />
       <workItem from="1603359589671" duration="1729000" />
       <workItem from="1603815668133" duration="3523000" />
-      <workItem from="1603899950718" duration="18000" />
-    </task>
-    <task id="LOCAL-00016" summary="fix gulp version">
-      <created>1545588175000</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1545588175000</updated>
+      <workItem from="1603899950718" duration="996000" />
+      <workItem from="1603960201146" duration="3346000" />
+      <workItem from="1604046631004" duration="1884000" />
+      <workItem from="1604256964591" duration="70000" />
+      <workItem from="1604305532704" duration="3173000" />
+      <workItem from="1604326768577" duration="633000" />
+      <workItem from="1604671183996" duration="1195000" />
+      <workItem from="1604913986115" duration="900000" />
     </task>
     <task id="LOCAL-00017" summary="fix svg parser">
       <created>1547643991200</created>
@@ -544,7 +551,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603818592872</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="fix header-nav">
+      <created>1603900227397</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1603900227397</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -585,7 +599,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="migrate to node v11.6" />
     <MESSAGE value="fix modal animation bug" />
     <MESSAGE value="fix fonts" />
     <MESSAGE value="fix bower script scroll template" />
@@ -610,22 +623,25 @@
     <MESSAGE value="fix adds calc v2" />
     <MESSAGE value="add reset method for item ingr" />
     <MESSAGE value="fix css bugs" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix css bugs" />
+    <MESSAGE value="fix header-nav" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix header-nav" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="-1753" y="-40" key="CommitChangelistDialog2" timestamp="1603818591231">
+    <state x="-1753" y="-40" key="CommitChangelistDialog2" timestamp="1603900225253">
       <screen x="-2560" y="-193" width="2560" height="1400" />
     </state>
     <state x="-1753" y="-103" key="CommitChangelistDialog2/-2560.-256.2560.1400/0.0.1920.1040/1920.166.1280.984@-2560.-256.2560.1400" timestamp="1601556871855" />
     <state x="-1753" y="-40" key="CommitChangelistDialog2/0.-1080.2560.1040/0.0.1920.1040/1920.52.1280.984/-2560.-193.2560.1400@-2560.-193.2560.1400" timestamp="1603818591231" />
+    <state x="-1753" y="-40" key="CommitChangelistDialog2/0.0.1920.1040/0.-1080.2560.1040/1920.52.1280.984/-2560.-193.2560.1400@-2560.-193.2560.1400" timestamp="1603900225253" />
     <state x="-1753" y="-103" key="CommitChangelistDialog2/0.0.1920.1040/1920.166.1280.984/-2560.-256.2560.1400@-2560.-256.2560.1400" timestamp="1601633096363" />
     <state x="-2174" y="-68" key="DiffContextDialog" timestamp="1603818576228">
       <screen x="-2560" y="-193" width="2560" height="1400" />
     </state>
     <state x="-2174" y="-68" key="DiffContextDialog/0.-1080.2560.1040/0.0.1920.1040/1920.52.1280.984/-2560.-193.2560.1400@-2560.-193.2560.1400" timestamp="1603818576228" />
-    <state x="-1478" y="321" key="FileChooserDialogImpl" timestamp="1600632836578">
-      <screen x="-2560" y="-256" width="2560" height="1400" />
+    <state x="-1478" y="384" key="FileChooserDialogImpl" timestamp="1604312144925">
+      <screen x="-2560" y="-193" width="2560" height="1400" />
     </state>
+    <state x="-1478" y="384" key="FileChooserDialogImpl/-2560.-193.2560.1400/0.0.1920.1040/0.-1080.2560.1040/1920.52.1280.984@-2560.-193.2560.1400" timestamp="1604312144925" />
     <state x="-1478" y="321" key="FileChooserDialogImpl/0.0.1920.1040/1920.166.1280.984/-2560.-256.2560.1400@-2560.-256.2560.1400" timestamp="1600632836578" />
     <state x="-1407" y="345" key="Github.ShareDialog" timestamp="1600086595359">
       <screen x="-2560" y="-256" width="2560" height="1400" />
@@ -640,11 +656,12 @@
     </state>
     <state x="-1779" y="87" key="SettingsEditor/-2560.-256.2560.1400/0.0.1920.1040/1920.166.1280.984@-2560.-256.2560.1400" timestamp="1600086573487" />
     <state x="-1779" y="87" key="SettingsEditor/0.0.1920.1040/1920.166.1280.984/-2560.-256.2560.1400@-2560.-256.2560.1400" timestamp="1597054358809" />
-    <state x="-2560" y="-193" key="Vcs.Push.Dialog.v2" timestamp="1603818594522">
+    <state x="-2560" y="-193" key="Vcs.Push.Dialog.v2" timestamp="1603900229611">
       <screen x="-2560" y="-193" width="2560" height="1400" />
     </state>
     <state x="-2115" y="45" key="Vcs.Push.Dialog.v2/-2560.-256.2560.1400/0.0.1920.1040/1920.166.1280.984@-2560.-256.2560.1400" timestamp="1601556879206" />
     <state x="-2560" y="-193" key="Vcs.Push.Dialog.v2/0.-1080.2560.1040/0.0.1920.1040/1920.52.1280.984/-2560.-193.2560.1400@-2560.-193.2560.1400" timestamp="1603818594522" />
+    <state x="-2560" y="-193" key="Vcs.Push.Dialog.v2/0.0.1920.1040/0.-1080.2560.1040/1920.52.1280.984/-2560.-193.2560.1400@-2560.-193.2560.1400" timestamp="1603900229611" />
     <state x="-2560" y="-256" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.166.1280.984/-2560.-256.2560.1400@-2560.-256.2560.1400" timestamp="1601633103666" />
     <state x="-2468" y="-164" width="2376" height="1216" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1601630424637">
       <screen x="-2560" y="-256" width="2560" height="1400" />
@@ -660,12 +677,11 @@
     <state x="-1662" y="90" width="762" height="709" key="find.popup/-2560.-256.2560.1400/0.0.1920.1040/1920.166.1280.984@-2560.-256.2560.1400" timestamp="1600780822249" />
     <state x="674" y="257" width="572" height="527" key="find.popup/-2560.-256.2560.1400/0.0.1920.1040/1920.166.1280.984@0.0.1920.1040" timestamp="1601978696432" />
     <state x="-1661" y="90" width="762" height="709" key="find.popup/0.0.1920.1040/1920.166.1280.984/-2560.-256.2560.1400@-2560.-256.2560.1400" timestamp="1601373258698" />
-    <state x="943" y="-846" width="672" height="504" key="search.everywhere.popup" timestamp="1603272955278">
-      <screen x="0" y="-1080" width="2560" height="1040" />
+    <state x="-1617" y="122" width="672" height="678" key="search.everywhere.popup" timestamp="1604914002830">
+      <screen x="-2560" y="-193" width="2560" height="1400" />
     </state>
-    <state x="-1617" y="122" width="672" height="678" key="search.everywhere.popup/-2560.-193.2560.1400/0.0.1920.1040/0.-1080.2560.1040/1920.52.1280.984@-2560.-193.2560.1400" timestamp="1602765276351" />
+    <state x="-1617" y="122" width="672" height="678" key="search.everywhere.popup/-2560.-193.2560.1400/0.0.1920.1040/0.-1080.2560.1040/1920.52.1280.984@-2560.-193.2560.1400" timestamp="1604914002830" />
     <state x="-1617" y="59" width="672" height="678" key="search.everywhere.popup/-2560.-256.2560.1400/0.0.1920.1040/1920.166.1280.984@-2560.-256.2560.1400" timestamp="1600953735554" />
-    <state x="707" y="234" width="672" height="504" key="search.everywhere.popup/-2560.-256.2560.1400/0.0.1920.1040/1920.166.1280.984@0.0.1920.1040" timestamp="1595416210720" />
     <state x="943" y="-846" width="672" height="504" key="search.everywhere.popup/0.0.1920.1040/0.-1080.2560.1040/1920.52.1280.984/-2560.-193.2560.1400@0.-1080.2560.1040" timestamp="1603272955278" />
     <state x="-1617" y="59" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.166.1280.984/-2560.-256.2560.1400@-2560.-256.2560.1400" timestamp="1601374010994" />
   </component>

@@ -74,11 +74,13 @@ mixin product(img="item-2.jpg")
           .style-input-text с кокосовой стружкой
       .product-footer
         .product-footer__info
+          .product-price.product-price--false 280 р
           .product-price 280 р
         .product-get.incr-btn
           .incr-btn__el.btn--sm.btn--mark Заказать
           .incr-btn-wrap
             +incr(1,"incr--mark-light")
+
 
 mixin product-sm(img="item-2.jpg",size)
   .product-el.product-el--sm.product-el--border
