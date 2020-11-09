@@ -3265,6 +3265,11 @@ body {
     font-size: 24px;
   }
 }
+.product-price--false {
+  color: #ff4136;
+  font-size: 14px;
+  text-decoration: line-through;
+}
 .product-condition {
   color: #b4b4b4;
   font-weight: 500;
