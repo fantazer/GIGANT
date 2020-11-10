@@ -11,19 +11,19 @@ include block_html/_include.pug
 				.title.title--lg Пицца
 			.tag-wrap
 				.tag.tag--condition
-					.tag-el(data-condition="hot")
+					.tag-el(data-condition="1")
 						.tag-el__name Острое
 						.tag-el__icon
 							+icon("close","icon")
-					.tag-el(data-condition="veg")
+					.tag-el(data-condition="2")
 						.tag-el__name Вегетарианское
 						.tag-el__icon
 							+icon("close","icon")
-					.tag-el(data-condition="firm")
+					.tag-el(data-condition="3")
 						.tag-el__name Фирменные
 						.tag-el__icon
 							+icon("close","icon")
-					.tag-el(data-condition="unbow")
+					.tag-el(data-condition="4")
 						.tag-el__name Без лука
 						.tag-el__icon
 							+icon("close","icon")
@@ -34,10 +34,11 @@ include block_html/_include.pug
 				//спец цена = bg:#FF0000
 				//новинка = bg:#61D100
 				- for (var i=0;i<2;i++)
-					+product('item-2.jpg',"grill hot veg")
-					+product('item-1.jpg',"classic veg")
-					+product('item-3.jpg',"cold firm")
-					+product('item-4.jpg',"grill unbow")
+					+product('item-2.jpg',"1")
+					+product('item-1.jpg',"2")
+					+product('item-3.jpg',"3")
+					+product('item-4.jpg',"4")
+					+product('item-5.jpg',"")
 				.filter-false.hidden К сожалению ничего не нашлось = (
 
 

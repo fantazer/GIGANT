@@ -504,13 +504,12 @@ $(document).ready(function () {
 			}
 		});
 		var strfilterType = filterType.sort().join(' ');
-		console.log(strfilterType);
 		var filterItem = [];
 		parent.find(".product-el").each(function(){
 			var current = $(this);
       current.addClass("hidden");
-			filterItem = current.data("type").split(' ').sort().join(' ');
-			console.log(filterItem);
+      console.log(current.data("condition"));
+			filterItem = current.data("condition").toString().split(' ').sort().join(' ');
 			if(filterItem.indexOf(strfilterType)!=-1){
 				current.removeClass("hidden");
 			}
