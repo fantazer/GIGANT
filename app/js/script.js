@@ -485,6 +485,42 @@ $(document).ready(function () {
 	window.resetItemMethods = resetItemIngr;
 	//window.condition = {};
 	//window.condition.info = info;
-	
+
+	// toggle tags
+	$('.tag-el').click(function(){
+		$(this).toggleClass("tag-el--active");
+	});
+
+	// toggle tags === end
+
+	// toggle items type
+	$('.tag-el').click(function(){
+		var filterType = [];
+		var parent = $(this).closest(".content");
+		var emptyItem = parent.find(".filter-false");
+		parent.find('.tag-el--active').each(function(){
+			if($(this).data("condition")!="all") {
+				filterType.push($(this).data("condition"));
+			}
+		});
+		var strfilterType = filterType.sort().join(' ');
+		console.log(strfilterType);
+		var filterItem = [];
+		parent.find(".product-el").each(function(){
+			var current = $(this);
+      current.addClass("hidden");
+			filterItem = current.data("type").split(' ').sort().join(' ');
+			console.log(filterItem);
+			if(filterItem.indexOf(strfilterType)!=-1){
+				current.removeClass("hidden");
+			}
+		});
+		if(parent.find(".product-el:not(.hidden)").length<1){
+			emptyItem.removeClass("hidden");
+		}else{
+			emptyItem.addClass("hidden");
+		}
+	});
+	// toggle items type === end
 
 });

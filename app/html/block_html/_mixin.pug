@@ -34,8 +34,8 @@ mixin incr(state,className='')
     .incr__plus.incr__nav
       +icon("plus","icon")
 
-mixin product(img="item-2.jpg")
-  .product-el
+mixin product(img="item-2.jpg",type)
+  .product-el(data-type=type)
     a(href="#").product__img
       .product__img-el(style="background-image:url('img/"+img+"')")
       .product-el-tag-wrap

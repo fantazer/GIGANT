@@ -2680,7 +2680,7 @@ l
 	background: #ececec
 	flex(between)
 	transform translateY(-50%)
-	margin-bottom: -50px
+	margin-bottom: -20px
 .deliver-info-title
 	+below(1024px)
 		font-size: 24px
@@ -2944,3 +2944,48 @@ l
 	flex(mid)
 	margin: 20px 0
 // review === end
+
+// tags filter
+.tag-wrap
+	margin-bottom: 30px
+
+.tag
+	+below(640px)
+		margin-bottom: 0
+	f()
+	fw()
+	align-items center
+.tag-el
+	padding: 8px 20px
+	background: white
+	box-shadow 0 3px 9px rgba(0, 0, 0, 0.1)
+	border-radius 15px
+	margin: 5px 10px 5px 0
+	border-bottom 1px solid transparent
+	cp()
+	tr()
+	f()
+	align-items center
+.tag-el--active
+	box-shadow 0 0 0
+	background: $mark
+	color white
+	.tag-el__icon
+		display block
+//.tag-el__name
+
+.tag-el__icon
+	display none
+	.icon
+		margin-left: 10px
+		size 10px
+		fill white
+
+.filter-false
+	@extend .type--xl
+	font-weight: 700
+	color $gray
+	width: 100%
+	grid-column: 1/4
+
+// tags filter === end
