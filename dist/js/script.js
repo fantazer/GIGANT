@@ -500,7 +500,7 @@ $(document).ready(function () {
 		var emptyItem = parent.find(".filter-false");
 		parent.find('.tag-el--active').each(function(){
 			if($(this).data("condition")!="all") {
-				filterType.push($(this).data("condition"));
+				filterType.push($(this).data("condition").toString());
 			}
 		});
 		var strfilterType = filterType.sort().join(' ');
