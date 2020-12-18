@@ -6524,6 +6524,12 @@ l,
   width: 100%;
   grid-column: 1/4;
 }
+.main-slider .main-slider__el-wrap:not(:first-child) {
+  visibility: hidden;
+}
+.main-slider.slick-initialized .main-slider__el-wrap:not(:first-child) {
+  visibility: visible;
+}
 @-webkit-keyframes slideInDown {
   from {
     -webkit-transform: translate3d(0, -100%, 0);

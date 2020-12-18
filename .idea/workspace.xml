@@ -10,12 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33fc4985-0812-4917-a972-022b8742b981" name="Default" comment="add filter fix to string part II">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/catalog.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/catalog.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/css/variable/_helper.styl" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/variable/_helper.styl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/html/catalog.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/html/catalog.pug" afterDir="false" />
-    </list>
+    <list default="true" id="33fc4985-0812-4917-a972-022b8742b981" name="Default" comment="fix iphone touch + font size" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,7 +38,7 @@
     <property name="add_unversioned_files" value="true&#10;E:/PROJECT/WORK/GIGANT/app/bower/slick-carousel/slick/slick-theme.css" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../OPEN-SERVICE" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -215,21 +210,8 @@
       <workItem from="1605176429480" duration="645000" />
       <workItem from="1606821444801" duration="1424000" />
       <workItem from="1607005950067" duration="2328000" />
-      <workItem from="1607592866960" duration="49000" />
-    </task>
-    <task id="LOCAL-00022" summary="add templates style + js">
-      <created>1559220561843</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1559220561843</updated>
-    </task>
-    <task id="LOCAL-00023" summary="add icon + fix readme + add modal page">
-      <created>1560779957354</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1560779957354</updated>
+      <workItem from="1607592866960" duration="314000" />
+      <workItem from="1608280457996" duration="21000" />
     </task>
     <task id="LOCAL-00024" summary="fix hrefs">
       <created>1561392840348</created>
@@ -560,7 +542,21 @@
       <option name="project" value="LOCAL" />
       <updated>1605013521651</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="fix iphone touch">
+      <created>1607593122414</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1607593122414</updated>
+    </task>
+    <task id="LOCAL-00072" summary="fix iphone touch + font size">
+      <created>1607593157297</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1607593157297</updated>
+    </task>
+    <option name="localTasksCounter" value="73" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -601,8 +597,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="fix windows config" />
-    <MESSAGE value="fix styles" />
     <MESSAGE value="deploy version" />
     <MESSAGE value="fix modals + cookie" />
     <MESSAGE value="fix cookier" />
@@ -626,68 +620,8 @@
     <MESSAGE value="add filter" />
     <MESSAGE value="add filter fix to string" />
     <MESSAGE value="add filter fix to string part II" />
-    <option name="LAST_COMMIT_MESSAGE" value="add filter fix to string part II" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="-1753" y="-40" key="CommitChangelistDialog2" timestamp="1605013519831">
-      <screen x="-2560" y="-193" width="2560" height="1400" />
-    </state>
-    <state x="-1753" y="-40" key="CommitChangelistDialog2/-2560.-193.2560.1400/0.0.1920.1040/0.-1080.2560.1040/1920.52.1280.984@-2560.-193.2560.1400" timestamp="1604934699749" />
-    <state x="-1753" y="-103" key="CommitChangelistDialog2/-2560.-256.2560.1400/0.0.1920.1040/1920.166.1280.984@-2560.-256.2560.1400" timestamp="1601556871855" />
-    <state x="-1753" y="-40" key="CommitChangelistDialog2/0.-1080.2560.1040/0.0.1920.1040/1920.52.1280.984/-2560.-193.2560.1400@-2560.-193.2560.1400" timestamp="1603818591231" />
-    <state x="-1753" y="-40" key="CommitChangelistDialog2/0.0.1920.1040/0.-1080.2560.1040/1920.52.1280.984/-2560.-193.2560.1400@-2560.-193.2560.1400" timestamp="1605013519831" />
-    <state x="-1753" y="-103" key="CommitChangelistDialog2/0.0.1920.1040/1920.166.1280.984/-2560.-256.2560.1400@-2560.-256.2560.1400" timestamp="1601633096363" />
-    <state x="-2174" y="-68" key="DiffContextDialog" timestamp="1603818576228">
-      <screen x="-2560" y="-193" width="2560" height="1400" />
-    </state>
-    <state x="-2174" y="-68" key="DiffContextDialog/0.-1080.2560.1040/0.0.1920.1040/1920.52.1280.984/-2560.-193.2560.1400@-2560.-193.2560.1400" timestamp="1603818576228" />
-    <state x="-1478" y="384" key="FileChooserDialogImpl" timestamp="1604312144925">
-      <screen x="-2560" y="-193" width="2560" height="1400" />
-    </state>
-    <state x="-1478" y="384" key="FileChooserDialogImpl/-2560.-193.2560.1400/0.0.1920.1040/0.-1080.2560.1040/1920.52.1280.984@-2560.-193.2560.1400" timestamp="1604312144925" />
-    <state x="-1478" y="321" key="FileChooserDialogImpl/0.0.1920.1040/1920.166.1280.984/-2560.-256.2560.1400@-2560.-256.2560.1400" timestamp="1600632836578" />
-    <state x="-1407" y="345" key="Github.ShareDialog" timestamp="1600086595359">
-      <screen x="-2560" y="-256" width="2560" height="1400" />
-    </state>
-    <state x="-1407" y="345" key="Github.ShareDialog/-2560.-256.2560.1400/0.0.1920.1040/1920.166.1280.984@-2560.-256.2560.1400" timestamp="1600086595359" />
-    <state x="-1446" y="165" key="Github.UntrackedFilesDialog" timestamp="1600086606901">
-      <screen x="-2560" y="-256" width="2560" height="1400" />
-    </state>
-    <state x="-1446" y="165" key="Github.UntrackedFilesDialog/-2560.-256.2560.1400/0.0.1920.1040/1920.166.1280.984@-2560.-256.2560.1400" timestamp="1600086606901" />
-    <state x="-1779" y="87" key="SettingsEditor" timestamp="1600086573487">
-      <screen x="-2560" y="-256" width="2560" height="1400" />
-    </state>
-    <state x="-1779" y="87" key="SettingsEditor/-2560.-256.2560.1400/0.0.1920.1040/1920.166.1280.984@-2560.-256.2560.1400" timestamp="1600086573487" />
-    <state x="-1779" y="87" key="SettingsEditor/0.0.1920.1040/1920.166.1280.984/-2560.-256.2560.1400@-2560.-256.2560.1400" timestamp="1597054358809" />
-    <state x="-2560" y="-193" key="Vcs.Push.Dialog.v2" timestamp="1605013523804">
-      <screen x="-2560" y="-193" width="2560" height="1400" />
-    </state>
-    <state x="-2560" y="-193" key="Vcs.Push.Dialog.v2/-2560.-193.2560.1400/0.0.1920.1040/0.-1080.2560.1040/1920.52.1280.984@-2560.-193.2560.1400" timestamp="1604934703558" />
-    <state x="-2115" y="45" key="Vcs.Push.Dialog.v2/-2560.-256.2560.1400/0.0.1920.1040/1920.166.1280.984@-2560.-256.2560.1400" timestamp="1601556879206" />
-    <state x="-2560" y="-193" key="Vcs.Push.Dialog.v2/0.-1080.2560.1040/0.0.1920.1040/1920.52.1280.984/-2560.-193.2560.1400@-2560.-193.2560.1400" timestamp="1603818594522" />
-    <state x="-2560" y="-193" key="Vcs.Push.Dialog.v2/0.0.1920.1040/0.-1080.2560.1040/1920.52.1280.984/-2560.-193.2560.1400@-2560.-193.2560.1400" timestamp="1605013523804" />
-    <state x="-2560" y="-256" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.166.1280.984/-2560.-256.2560.1400@-2560.-256.2560.1400" timestamp="1601633103666" />
-    <state x="-2468" y="-164" width="2376" height="1216" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1601630424637">
-      <screen x="-2560" y="-256" width="2560" height="1400" />
-    </state>
-    <state x="-2468" y="-164" width="2376" height="1216" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040/1920.166.1280.984/-2560.-256.2560.1400@-2560.-256.2560.1400" timestamp="1601630424637" />
-    <state x="-1468" y="353" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601555020778">
-      <screen x="-2560" y="-256" width="2560" height="1400" />
-    </state>
-    <state x="-1468" y="353" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-2560.-256.2560.1400/0.0.1920.1040/1920.166.1280.984@-2560.-256.2560.1400" timestamp="1601555020778" />
-    <state x="674" y="257" width="572" height="527" key="find.popup" timestamp="1601978696432">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="-1662" y="90" width="762" height="709" key="find.popup/-2560.-256.2560.1400/0.0.1920.1040/1920.166.1280.984@-2560.-256.2560.1400" timestamp="1600780822249" />
-    <state x="674" y="257" width="572" height="527" key="find.popup/-2560.-256.2560.1400/0.0.1920.1040/1920.166.1280.984@0.0.1920.1040" timestamp="1601978696432" />
-    <state x="-1661" y="90" width="762" height="709" key="find.popup/0.0.1920.1040/1920.166.1280.984/-2560.-256.2560.1400@-2560.-256.2560.1400" timestamp="1601373258698" />
-    <state x="-1617" y="122" width="672" height="678" key="search.everywhere.popup" timestamp="1605007495983">
-      <screen x="-2560" y="-193" width="2560" height="1400" />
-    </state>
-    <state x="-1617" y="122" width="672" height="678" key="search.everywhere.popup/-2560.-193.2560.1400/0.0.1920.1040/0.-1080.2560.1040/1920.52.1280.984@-2560.-193.2560.1400" timestamp="1604914002830" />
-    <state x="-1617" y="59" width="672" height="678" key="search.everywhere.popup/-2560.-256.2560.1400/0.0.1920.1040/1920.166.1280.984@-2560.-256.2560.1400" timestamp="1600953735554" />
-    <state x="-1617" y="122" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/0.-1080.2560.1040/1920.52.1280.984/-2560.-193.2560.1400@-2560.-193.2560.1400" timestamp="1605007495983" />
-    <state x="943" y="-846" width="672" height="504" key="search.everywhere.popup/0.0.1920.1040/0.-1080.2560.1040/1920.52.1280.984/-2560.-193.2560.1400@0.-1080.2560.1040" timestamp="1603272955278" />
-    <state x="-1617" y="59" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.166.1280.984/-2560.-256.2560.1400@-2560.-256.2560.1400" timestamp="1601374010994" />
+    <MESSAGE value="fix iphone touch" />
+    <MESSAGE value="fix iphone touch + font size" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix iphone touch + font size" />
   </component>
 </project>
