@@ -433,14 +433,15 @@ $(document).ready(function () {
 	//console.log("Минимум:",minAdds);
 	//console.log("Максимум:",maxAdds);
 	var isLimitVal = 0;
-	$('.js-ingr-wrap').each(function() {
+	$(' .js-ingr-wrap').each(function() {
 		isLimitVal += $(this).data("min");
 	})
 	isLimitVal === 0 ? $(".item-total").removeClass("item-total--disable") : false
 
 	$('.js-ingr-wrap .incr__nav').click(function(){
 		var isAllCheck = 0
-		$('.js-ingr-wrap').each(function(){
+		var parent = $(this).closest('.js-switch-cont');
+		parent.find('.js-ingr-wrap').each(function(){
 			var currentSizeAdds = 0;
 			var minAdds = $(this).data("min");
 			var maxAdds = $(this).data("max");
@@ -468,9 +469,9 @@ $(document).ready(function () {
 		})
 		//console.log(window.isAllCheck.state);
 		if(isAllCheck===0){
-			$(".item-total").removeClass("item-total--disable");
+			parent.find(".item-total").removeClass("item-total--disable");
 		}else{
-			$(".item-total").addClass("item-total--disable");
+			parent.find(".item-total").addClass("item-total--disable");
 		}
 	});
 	// calc adds === end
@@ -481,6 +482,12 @@ $(document).ready(function () {
 		$('.ingr-row .incr').removeClass('incr--single-active');
 		$('.item-total').addClass('item-total--disable');
 	}
+
+	// toggle ingr drop
+	$('.js-item-config-row-head').click(function(){
+		$(this).closest('.js-ingr-wrap').find('.js-item-config-row-content').slideToggle()
+	});
+	// toggle ingr drop === end
 
 	window.resetItemMethods = resetItemIngr;
 	//window.condition = {};

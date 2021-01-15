@@ -1499,9 +1499,24 @@ body
 .item-size
 	margin-bottom: 30px
 .item-config-row
-	margin-bottom: 30px
+	margin-bottom: 15px
+	padding: 12px 20px
+	border 1px solid $border-color
+	br(24px)
 	.title
-		margin-bottom: 20px
+		margin-bottom: 0
+.item-config-row-head
+	flex(between)
+	cp()
+	.icon
+		tr()
+		size 16px
+	&.active
+		.icon
+			fill $mark
+			transform rotate(45deg)
+.item-config-row-content
+	margin-top: 20px
 
 .item-prop
 	+below(640px)
@@ -1551,6 +1566,8 @@ body
 	@extend .type--sm
 	&:first-child
 		padding-top: 0
+	&:last-child
+		border 0
 
 .ingr-row--disable
 	position relative
