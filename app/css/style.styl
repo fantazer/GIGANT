@@ -64,19 +64,18 @@ body
 			width: 40px
 		width: 70px
 	.header-menu-wrap
-		+below(1024px)
-			display: none
 		background: white
 		.logo
 			display: block
 	.header-top-wrap
-		+below(1024px)
-			display: block
-			bsh()
+		+below(768px)
+			display block
 		display: none
 	.header-nav--add
 		display: none
 	.cart-wrap--desktop
+		+below(768px)
+			display none
 		display flex
 		margin-left auto
 	.header-menu-search
@@ -84,6 +83,8 @@ body
 	.logo--lg
 		display none!important
 	.logo--sm
+		+below(1024px)
+			display none!important
 		display block!important
 		width: 60px
 		margin-right: 10px
@@ -564,6 +565,7 @@ body
 	.logo
 		display: none
 .header-menu
+
 	align-items: center
 	f()
 .header-nav
@@ -572,8 +574,10 @@ body
 		width: 100%
 	+below(640px)
 		justify-content initial
+		margin-right: 0
 	align-items: center
 	f()
+	margin-right: 20px
 .header-nav__el
 	+below(640px)
 		font-size: 14px
