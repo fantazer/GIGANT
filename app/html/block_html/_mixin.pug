@@ -35,7 +35,7 @@ mixin incr(state,className='')
       +icon("plus","icon")
 
 mixin product(img="item-2.jpg",type)
-  .product-el(data-condition=type)
+  .product-el.js-animateFlyItem(data-condition=type)
     a(href="#").product__img
       .product__img-el(style="background-image:url('img/"+img+"')")
       .product-el-tag-wrap
@@ -77,7 +77,7 @@ mixin product(img="item-2.jpg",type)
           .product-price.product-price--false 280 р
           .product-price 280 р
         .product-get.incr-btn
-          .incr-btn__el.btn--sm.btn--mark Заказать
+          .incr-btn__el.btn--sm.btn--mark.js-animateFlyInit Заказать
           .incr-btn-wrap
             +incr(1,"incr--mark-light")
 

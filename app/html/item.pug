@@ -6,7 +6,7 @@ include block_html/_include.pug
 	.content
 		.main-cont
 			//pizza
-			.item-wrap
+			.item-wrap.js-animateFlyItem
 				.item-col
 					.item-img(style="background-image:url('img/item-card-1.jpg')")
 				// item-info
@@ -85,7 +85,7 @@ include block_html/_include.pug
 										.item-total__weight 350 г
 								.item-get
 									.incr-btn.incr-btn--fix
-										.incr-btn__el.btn--md.btn--mark Заказать
+										.incr-btn__el.btn--md.btn--mark.js-animateFlyInit Заказать
 										.incr-btn-wrap
 											+incr(1,"incr--mark")
 								a(href="#").icon-row

@@ -10,10 +10,17 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33fc4985-0812-4917-a972-022b8742b981" name="Default" comment="add drop adds in item page">
+    <list default="true" id="33fc4985-0812-4917-a972-022b8742b981" name="Default" comment="fix mobile header">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/basket.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/basket.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/catalog.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/catalog.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/css/style.styl" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/style.styl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/html/block_html/_mixin.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/html/block_html/_mixin.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/html/item.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/html/item.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/item.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/item.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/main.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -226,14 +233,9 @@
       <workItem from="1608280457996" duration="845000" />
       <workItem from="1608898536689" duration="608000" />
       <workItem from="1610716948812" duration="2812000" />
-      <workItem from="1611158228088" duration="883000" />
-    </task>
-    <task id="LOCAL-00026" summary="add soc icon">
-      <created>1561564237284</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1561564237284</updated>
+      <workItem from="1611158228088" duration="1328000" />
+      <workItem from="1611321879069" duration="1223000" />
+      <workItem from="1613657115825" duration="1152000" />
     </task>
     <task id="LOCAL-00027" summary="fix input style">
       <created>1562781408424</created>
@@ -571,7 +573,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610722085100</updated>
     </task>
-    <option name="localTasksCounter" value="75" />
+    <task id="LOCAL-00075" summary="fix mobile header">
+      <created>1611159419226</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1611159419226</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -612,7 +621,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="fix cookier" />
     <MESSAGE value="add soc-fl icon" />
     <MESSAGE value="replace search icon + fix card size + add seoText" />
     <MESSAGE value="add head line + drop menu" />
@@ -637,6 +645,7 @@
     <MESSAGE value="fix iphone touch + font size" />
     <MESSAGE value="fix slider" />
     <MESSAGE value="add drop adds in item page" />
-    <option name="LAST_COMMIT_MESSAGE" value="add drop adds in item page" />
+    <MESSAGE value="fix mobile header" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix mobile header" />
   </component>
 </project>
