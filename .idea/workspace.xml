@@ -10,7 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33fc4985-0812-4917-a972-022b8742b981" name="Default" comment="add fly effect">
+    <list default="true" id="33fc4985-0812-4917-a972-022b8742b981" name="Default" comment="fix fly">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/script.js" afterDir="false" />
     </list>
@@ -228,14 +228,8 @@
       <workItem from="1611158228088" duration="1328000" />
       <workItem from="1611321879069" duration="1223000" />
       <workItem from="1613657115825" duration="3600000" />
-      <workItem from="1614853614238" duration="26000" />
-    </task>
-    <task id="LOCAL-00028" summary="add full page template">
-      <created>1563526589141</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1563526589141</updated>
+      <workItem from="1614853614238" duration="861000" />
+      <workItem from="1614859562471" duration="622000" />
     </task>
     <task id="LOCAL-00029" summary="add mixin link">
       <created>1564580702388</created>
@@ -573,7 +567,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613660987951</updated>
     </task>
-    <option name="localTasksCounter" value="77" />
+    <task id="LOCAL-00077" summary="fix fly">
+      <created>1614853745524</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1614853745524</updated>
+    </task>
+    <option name="localTasksCounter" value="78" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -614,7 +615,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="replace search icon + fix card size + add seoText" />
     <MESSAGE value="add head line + drop menu" />
     <MESSAGE value="fix logo + add menu item" />
     <MESSAGE value="fix search + title items + catalog list extends" />
@@ -639,6 +639,7 @@
     <MESSAGE value="add drop adds in item page" />
     <MESSAGE value="fix mobile header" />
     <MESSAGE value="add fly effect" />
-    <option name="LAST_COMMIT_MESSAGE" value="add fly effect" />
+    <MESSAGE value="fix fly" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix fly" />
   </component>
 </project>

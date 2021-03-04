@@ -8,7 +8,7 @@
     display: inline-block;
     background-image: url("../svg/sprite.svg");
     background-repeat: no-repeat;
-    background-size: 61.2em 1807.4em;
+    background-size: 61.2em 1759.2em;
 }
 
 .no-svg .icon:before {
@@ -467,17 +467,8 @@
 
 
 
-  .icon.share:before {
-      background-position: 0em -1161.3em;
-      width: 48.160000000000004em;
-      height: 48.160000000000004em;
-  }
-
-
-
-
   .icon.shopping-cart:before {
-      background-position: 0em -1209.5em;
+      background-position: 0em -1161.3em;
       width: 51.2em;
       height: 51.2em;
   }
@@ -486,7 +477,7 @@
 
 
   .icon.smile:before {
-      background-position: 0em -1260.7em;
+      background-position: 0em -1212.5em;
       width: 51.2em;
       height: 51.2em;
   }
@@ -495,7 +486,7 @@
 
 
   .icon.smile-good:before {
-      background-position: 0em -1311.9em;
+      background-position: 0em -1263.7em;
       width: 4.3em;
       height: 4.3em;
   }
@@ -504,7 +495,7 @@
 
 
   .icon.soc-facebook:before {
-      background-position: 0em -1316.2em;
+      background-position: 0em -1268em;
       width: 51.2em;
       height: 51.2em;
   }
@@ -513,7 +504,7 @@
 
 
   .icon.soc-fl:before {
-      background-position: 0em -1367.4em;
+      background-position: 0em -1319.2em;
       width: 1.2281em;
       height: 1.0243em;
   }
@@ -522,7 +513,7 @@
 
 
   .icon.soc-in:before {
-      background-position: 0em -1368.5em;
+      background-position: 0em -1320.3em;
       width: 43.011700000000005em;
       height: 43.011700000000005em;
   }
@@ -531,7 +522,7 @@
 
 
   .icon.soc-instagram:before {
-      background-position: 0em -1411.6em;
+      background-position: 0em -1363.4em;
       width: 43.8536em;
       height: 43.8536em;
   }
@@ -540,7 +531,7 @@
 
 
   .icon.soc-ok:before {
-      background-position: 0em -1455.5em;
+      background-position: 0em -1407.3em;
       width: 9.5481em;
       height: 9.5481em;
   }
@@ -549,7 +540,7 @@
 
 
   .icon.soc-telegram:before {
-      background-position: 0em -1465.1em;
+      background-position: 0em -1416.9em;
       width: 30em;
       height: 30em;
   }
@@ -558,7 +549,7 @@
 
 
   .icon.soc-twitter:before {
-      background-position: 0em -1495.1em;
+      background-position: 0em -1446.9em;
       width: 41.015499999999996em;
       height: 41.015499999999996em;
   }
@@ -567,7 +558,7 @@
 
 
   .icon.soc-vk:before {
-      background-position: 0em -1536.2em;
+      background-position: 0em -1488em;
       width: 51.2em;
       height: 51.2em;
   }
@@ -576,7 +567,7 @@
 
 
   .icon.soc-whatsapp:before {
-      background-position: 0em -1587.4em;
+      background-position: 0em -1539.2em;
       width: 51.2em;
       height: 51.2em;
   }
@@ -585,7 +576,7 @@
 
 
   .icon.soc-youtube:before {
-      background-position: 0em -1638.6em;
+      background-position: 0em -1590.4em;
       width: 51.2em;
       height: 51.2em;
   }
@@ -594,7 +585,7 @@
 
 
   .icon.star:before {
-      background-position: 0em -1689.8em;
+      background-position: 0em -1641.6em;
       width: 1.6em;
       height: 1.6em;
   }
@@ -603,7 +594,7 @@
 
 
   .icon.tick--color:before {
-      background-position: 0em -1691.4em;
+      background-position: 0em -1643.2em;
       width: 51.2em;
       height: 51.2em;
   }
@@ -612,7 +603,7 @@
 
 
   .icon.time:before {
-      background-position: 0em -1742.6em;
+      background-position: 0em -1694.4em;
       width: 2em;
       height: 2em;
   }
@@ -621,7 +612,7 @@
 
 
   .icon.unlike:before {
-      background-position: 0em -1744.6em;
+      background-position: 0em -1696.4em;
       width: 9.6em;
       height: 9.5428em;
   }
@@ -630,7 +621,7 @@
 
 
   .icon.upload:before {
-      background-position: 0em -1754.2em;
+      background-position: 0em -1706em;
       width: 51.2001em;
       height: 51.2001em;
   }
@@ -639,7 +630,7 @@
 
 
   .icon.user:before {
-      background-position: 0em -1805.5em;
+      background-position: 0em -1757.3em;
       width: 2.2em;
       height: 1.8158em;
   }
